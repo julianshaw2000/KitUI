@@ -1,0 +1,12 @@
+<mat-card>
+
+<h2>Condo Units</h2>
+  <div class="dscroll">
+    <br>
+    <div *ngFor="let item of condoList">
+      <h4 (click)="onclick(item.condoId)">{{item.condoId}} </h4>
+    </div>
+
+  </div>
+
+</mat-card>

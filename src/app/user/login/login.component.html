@@ -1,0 +1,49 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+  <mat-card fxLayout="column" fxLayoutAlign="center center">
+    <mat-card-header>
+      <mat-card-title>
+        <h4>Login to portal</h4>
+      </mat-card-title>
+    </mat-card-header>
+
+    <p>
+      <mat-form-field appearance="fill">
+        <mat-label>Username</mat-label>
+        <input matInput [(ngModel)]="username" #ctrl="ngModel" required />
+        <mat-hint>Use ID provided by the office</mat-hint>
+      </mat-form-field>
+    </p>
+
+    <p>
+      <mat-form-field appearance="fill">
+        <mat-label>Enter password</mat-label>
+        <input
+          matInput
+          [(ngModel)]="password"
+          #ctrl="ngModel"
+          required
+          type="password"
+          (keyup.enter)="onLogin()"
+        />
+      </mat-form-field>
+    </p>
+
+    <!-- <p>Valid: {{ ctrl.valid }}</p> -->
+    <mat-card-actions>
+      <div fxLayoutGap="10px">
+        <button mat-raised-button color="primary" (click)="onLogin()">
+          Login
+        </button>
+        <button mat-raised-button color="primary" (click)="setValue()">
+          Register
+        </button>
+        <button mat-raised-button color="primary" (click)="setValue()">
+          Change password
+        </button>
+        <button mat-raised-button color="accent" (click)="onCancel()">
+          Cancel
+        </button>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>

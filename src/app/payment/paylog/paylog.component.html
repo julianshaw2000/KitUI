@@ -1,0 +1,46 @@
+<div fxLayout="row" fxLayoutAlign="space-between start ">
+
+  <mat-card >
+
+    <app-paydrop></app-paydrop>
+
+
+  </mat-card>
+
+
+  <mat-card style="width:40vw">
+    <h3> Payment details</h3>
+
+    <table>
+      <tr>
+        <td>Reference Id</td>
+        <td> <input matInput></td>
+      </tr>
+      <tr>
+        <td>Amount</td>
+        <td> <input matInput [(ngModel)]="payment"></td>
+      </tr>
+      <tr>
+        <td>Bank</td>
+        <td> <input matInput></td>
+      </tr>
+      <tr>
+        <td>Note</td>
+        <td> <input matInput></td>
+      </tr>
+    </table>
+
+
+  <button   mat-raised-button	color="primary" (click)="onUpdatePayment()">
+     Update Payment
+  </button>
+
+&nbsp;
+  <button   mat-raised-button	color="primary">
+    Make payment with portal
+  </button>
+
+
+  </mat-card>
+
+

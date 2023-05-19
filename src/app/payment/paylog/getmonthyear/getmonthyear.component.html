@@ -1,0 +1,22 @@
+<!-- <mat-form-field appearance="fill"> -->
+
+
+  <button mat-raised-button color="primary" (click)="onGetCharges()">Get Charges up to this date</button> &nbsp;
+  <!-- <mat-label>Month and Year</mat-label> -->
+  <input matInput [matDatepicker]="dp" [formControl]="date">
+
+<!--
+<div class="form__group field">
+  <input  matInput [matDatepicker]="dp" [formControl]="date"
+   type="input" class="form__field" placeholder="Name" name="name" id='name' required />
+  <label for="name" class="form__label">Name</label>
+</div> -->
+
+  <mat-hint>MM/YYYY</mat-hint>
+  <mat-datepicker-toggle matSuffix [for]="dp"></mat-datepicker-toggle>
+  <mat-datepicker #dp
+                  startView="multi-year"
+                  (monthSelected)="setMonthAndYear($event, dp)"
+                  panelClass="example-month-picker">
+  </mat-datepicker>
+<!-- </mat-form-field> -->

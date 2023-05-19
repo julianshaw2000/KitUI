@@ -1,0 +1,5281 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "comps": [
+    {
+      "id": 0,
+      "isActive": true,
+      "name": "ISOSPHERE",
+      "phone": "+1 (834) 549-3959",
+      "cost": 337.51,
+      "address": "816 Albemarle Road, Condon,29",
+      "email": "garzagoodman@isosphere.com",
+      "description": "Lorem ad in mollit laborum ex reprehenderit dolor",
+      "count": 86
+    },
+    {
+      "id": 1,
+      "isActive": false,
+      "name": "APEXIAS",
+      "phone": "+1 (850) 481-2555",
+      "cost": 380.09,
+      "address": "582 Havens Place, Allendale,31",
+      "email": "garzagoodman@apexia.com",
+      "description": "qui nostrud esse magna id proident nostrud elit",
+      "count": 118
+    },
+    {
+      "id": 2,
+      "isActive": false,
+      "name": "RODEOCEAN",
+      "phone": "+1 (980) 521-3584",
+      "cost": 331.45,
+      "address": "417 Howard Alley, Crenshaw,26",
+      "email": "garzagoodman@rodeocean.com",
+      "description": "proident elit ad sit labore esse voluptate eiusmod",
+      "count": 83
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "name": "ZOLARITY",
+      "phone": "+1 (937) 516-2662",
+      "cost": 363.07,
+      "address": "911 Garnet Street, Edgar,84",
+      "email": "garzagoodman@zolarity.com",
+      "description": "aute voluptate ut id pariatur ea commodo in",
+      "count": 132
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "name": "SYBIXTEX",
+      "phone": "+1 (939) 549-2256",
+      "cost": 13.71,
+      "address": "834 Nevins Street, Dragoon,51",
+      "email": "garzagoodman@sybixtex.com",
+      "description": "incididunt laborum ad commodo magna irure anim eu",
+      "count": 145
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "name": "IMMUNICS",
+      "phone": "+1 (938) 576-2674",
+      "cost": 356.28,
+      "address": "217 Bowne Street, Trinway,54",
+      "email": "garzagoodman@immunics.com",
+      "description": "eu reprehenderit aliquip aliquip consequat eu laborum occaecat",
+      "count": 33
+    },
+    {
+      "id": 6,
+      "isActive": false,
+      "name": "PHOTOBIN",
+      "phone": "+1 (982) 502-2364",
+      "cost": 343.62,
+      "address": "943 Bijou Avenue, Maury,91",
+      "email": "garzagoodman@photobin.com",
+      "description": "et culpa occaecat cupidatat anim elit eiusmod incididunt",
+      "count": 125
+    },
+    {
+      "id": 7,
+      "isActive": false,
+      "name": "DEVILTOE",
+      "phone": "+1 (877) 427-3769",
+      "cost": 296.89,
+      "address": "147 Ingraham Street, Sunnyside,87",
+      "email": "garzagoodman@deviltoe.com",
+      "description": "duis fugiat ea esse qui quis laboris ea",
+      "count": 117
+    },
+    {
+      "id": 8,
+      "isActive": true,
+      "name": "KRAGGLE",
+      "phone": "+1 (838) 570-3400",
+      "cost": 145.86,
+      "address": "350 Greenpoint Avenue, Juntura,41",
+      "email": "garzagoodman@kraggle.com",
+      "description": "adipisicing mollit veniam nisi amet Lorem nisi non",
+      "count": 59
+    },
+    {
+      "id": 9,
+      "isActive": true,
+      "name": "FORTEAN",
+      "phone": "+1 (821) 537-2654",
+      "cost": 20.36,
+      "address": "364 Banner Avenue, Wolcott,34",
+      "email": "garzagoodman@fortean.com",
+      "description": "occaecat ullamco aliquip ut do ut reprehenderit amet",
+      "count": 118
+    },
+    {
+      "id": 10,
+      "isActive": false,
+      "name": "LYRICHORD",
+      "phone": "+1 (897) 412-3098",
+      "cost": 250.21,
+      "address": "732 Hinckley Place, Indio,92",
+      "email": "garzagoodman@lyrichord.com",
+      "description": "eiusmod est id minim proident voluptate anim excepteur",
+      "count": 58
+    },
+    {
+      "id": 11,
+      "isActive": false,
+      "name": "CORPORANA",
+      "phone": "+1 (825) 498-3912",
+      "cost": 387.69,
+      "address": "500 Walker Court, Fidelis,42",
+      "email": "garzagoodman@corporana.com",
+      "description": "culpa sint Lorem eu aliqua adipisicing esse irure",
+      "count": 138
+    },
+    {
+      "id": 12,
+      "isActive": false,
+      "name": "UNEEQ",
+      "phone": "+1 (905) 428-2626",
+      "cost": 47.59,
+      "address": "678 Furman Street, Harleigh,66",
+      "email": "garzagoodman@uneeq.com",
+      "description": "dolor dolore laborum aliqua consectetur nisi sint culpa",
+      "count": 71
+    },
+    {
+      "id": 13,
+      "isActive": false,
+      "name": "ENDIPINE",
+      "phone": "+1 (881) 417-2472",
+      "cost": 212.09,
+      "address": "884 Livonia Avenue, Beechmont,52",
+      "email": "garzagoodman@endipine.com",
+      "description": "culpa est duis mollit in esse fugiat officia",
+      "count": 132
+    },
+    {
+      "id": 14,
+      "isActive": true,
+      "name": "UNI",
+      "phone": "+1 (997) 430-3074",
+      "cost": 167.26,
+      "address": "504 Overbaugh Place, Leland,13",
+      "email": "garzagoodman@uni.com",
+      "description": "aute voluptate tempor irure est incididunt cillum ut",
+      "count": 28
+    },
+    {
+      "id": 15,
+      "isActive": true,
+      "name": "PLASMOS",
+      "phone": "+1 (924) 497-2111",
+      "cost": 240.45,
+      "address": "195 Irvington Place, Greenfields,82",
+      "email": "garzagoodman@plasmos.com",
+      "description": "magna exercitation ea enim cupidatat magna do adipisicing",
+      "count": 49
+    },
+    {
+      "id": 16,
+      "isActive": false,
+      "name": "vsdsf",
+      "description": "ffgdgfdxv",
+      "phone": "",
+      "cost": 0,
+      "address": "",
+      "email": "",
+      "count": 200
+    },
+    {
+      "id": 17,
+      "isActive": false,
+      "name": "dddf",
+      "description": "fgdf dg d gdgd",
+      "phone": "",
+      "cost": 0,
+      "address": "",
+      "email": "",
+      "count": 50
+    },
+    {
+      "id": 18,
+      "isActive": false,
+      "name": "syringe",
+      "description": "mumps and flu syringe",
+      "phone": "555-8888",
+      "cost": 0,
+      "address": "oxford circus",
+      "email": "ghdhd",
+      "count": 200
+    },
+    {
+      "id": 19,
+      "isActive": false,
+      "name": "fhfgh",
+      "description": "fhfhg",
+      "phone": "fhfhf",
+      "cost": 0,
+      "address": "ffghfghf",
+      "email": "ddd@ggg.com",
+      "count": 43
+    }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "isActive": false,
+      "name": "VENOFLEX",
+      "description": "Et minim sint cillum non ea elit ut sint non ullamco. Commodo ullamco anim magna culpa. Reprehenderit duis duis duis adipisicing ad magna laborum ad ullamco deserunt irure. Cupidatat commodo consequat ex dolor veniam nostrud commodo occaecat. Ea nisi id elit nostrud id id reprehenderit amet laborum commodo. Et aliqua magna amet Lorem aliquip.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 6,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 49,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 28,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "compId": 10,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "name": "ROCKABYE",
+      "description": "Aute aliqua elit esse voluptate eiusmod irure in. Id eiusmod est sit officia magna nostrud. Officia nostrud cupidatat id minim quis occaecat. Pariatur ad sint consequat dolore. Tempor enim nostrud cupidatat dolor consequat ipsum pariatur in duis sint. Labore veniam est excepteur nulla incididunt id ad qui est occaecat.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 39,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 43,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 20,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 49,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "isActive": false,
+      "name": "OVIUM",
+      "description": "Sunt duis ea non tempor. Est et nisi minim magna voluptate in amet. Quis aute et fugiat sit do nulla. Id sint Lorem sint duis fugiat reprehenderit est adipisicing eu sit Lorem pariatur velit.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 2,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 19,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "compId": 9,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 3,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "compId": 55,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "name": "APPLICA",
+      "description": "Eu deserunt proident est cupidatat et et deserunt consectetur ipsum Lorem elit qui commodo. Cupidatat mollit laboris cupidatat aliquip eu veniam consequat esse sint commodo ullamco labore irure. Ut duis est ex anim in proident non occaecat Lorem mollit dolore fugiat sit nisi. Qui ad nulla nisi sit. Nisi et laborum eiusmod id nisi laboris elit mollit nisi sunt. Consectetur occaecat ea excepteur minim adipisicing elit occaecat ut id ad proident ullamco.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 7,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 22,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 27,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "compId": 37,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "compId": 18,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "isActive": false,
+      "name": "COASH",
+      "description": "Aute pariatur fugiat reprehenderit velit ex reprehenderit. Nulla sint aute nostrud officia consequat do qui sit. In aliquip excepteur elit fugiat sint elit mollit id non culpa enim culpa nostrud. Nisi velit amet ut nisi commodo velit commodo est eu dolor excepteur minim. Anim est consequat exercitation dolore est fugiat velit adipisicing enim excepteur cupidatat ullamco et officia. Sit velit consequat sint sint pariatur duis ex Lorem ex. Culpa consectetur voluptate aliqua ullamco qui.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 47,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 12,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "name": "WATERBABY",
+      "description": "Enim velit voluptate voluptate esse voluptate qui esse exercitation aliqua veniam ullamco ad magna esse. Proident excepteur excepteur consequat est. Ut culpa dolore reprehenderit deserunt commodo adipisicing non.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 44,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "isActive": false,
+      "name": "PEARLESSA",
+      "description": "Occaecat aliquip esse nostrud laborum voluptate et incididunt esse laboris. Exercitation ad est laborum ut minim fugiat ut occaecat proident ex. Ut nisi veniam elit aliquip.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 22,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "isActive": false,
+      "name": "STRALUM",
+      "description": "Incididunt laboris sit ut irure non consectetur aliquip ut esse do nostrud deserunt. Reprehenderit in amet qui esse veniam quis eu elit laborum laborum ad. Commodo laboris ut ad cillum. Magna tempor commodo aute ea culpa officia ad veniam elit ea mollit ex est. Pariatur nulla duis dolor in commodo fugiat do labore dolore ex exercitation sit tempor excepteur.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 24,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "isActive": true,
+      "name": "BICOL",
+      "description": "Officia officia esse culpa anim cillum cillum. Est eiusmod nisi mollit laborum. Est aliquip nulla veniam ut qui dolor ex sunt cillum esse. Dolor sunt ullamco in exercitation officia nulla minim consectetur aute. Laboris ad deserunt aute eu minim labore cillum ipsum irure eiusmod Lorem.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 50,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 16,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "isActive": false,
+      "name": "DEMINIMUM",
+      "description": "Dolor reprehenderit commodo reprehenderit labore dolore. Irure cupidatat ut in officia non dolor. Voluptate sunt esse ad dolore minim laboris mollit ut elit ad officia ut sint. Magna nisi exercitation culpa sit eiusmod nisi amet qui laboris do ex id nulla. Duis mollit culpa fugiat cupidatat est in laborum cillum dolore do amet tempor culpa. Occaecat elit irure labore sit cupidatat labore enim nisi. Culpa ut occaecat Lorem dolore adipisicing adipisicing laborum cupidatat aliqua reprehenderit anim.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 22,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 2,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "isActive": false,
+      "name": "NORALEX",
+      "description": "Consequat dolore laborum eiusmod deserunt proident. Et nisi ipsum in nulla veniam elit. Sint in eu laborum consectetur. Cupidatat Lorem non et sunt esse consequat ex eu. Duis culpa esse officia culpa proident minim. Non minim nulla mollit aliqua eu officia nulla irure nostrud ipsum dolor sint irure.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 12,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "isActive": false,
+      "name": "INSURESYS",
+      "description": "Officia cupidatat fugiat sit adipisicing nulla. Amet esse minim et id aliquip irure est est. Anim velit esse cupidatat tempor magna dolore ipsum cupidatat. Aute in aute nulla commodo elit. Adipisicing proident non tempor dolore.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 21,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 19,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 44,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 22,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "compId": 43,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "isActive": false,
+      "name": "SCENTY",
+      "description": "Voluptate est sint aute aute cillum mollit dolore dolore pariatur irure laborum consectetur aliqua. Ad anim ea excepteur consequat amet in in. Laboris eu dolore est mollit commodo laborum sint officia mollit. Fugiat ut commodo aliqua ut consectetur irure incididunt. Est dolore cillum aliquip et reprehenderit veniam enim. Tempor excepteur sint non reprehenderit. Proident fugiat veniam adipisicing irure laboris id laboris sit reprehenderit ipsum.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 56,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 53,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "compId": 7,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "isActive": true,
+      "name": "ENERSAVE",
+      "description": "Proident aute laboris laborum consequat duis fugiat Lorem deserunt nisi proident. Nulla sint sit ut reprehenderit enim laborum exercitation officia proident. Sit commodo magna magna adipisicing cupidatat duis eiusmod. Et elit proident incididunt sit. Culpa ex laborum commodo veniam ut dolor labore nulla exercitation nisi duis.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 15,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "isActive": true,
+      "name": "FILODYNE",
+      "description": "Commodo cillum est ut eu adipisicing. Ea reprehenderit nostrud aliqua labore labore in commodo ut ullamco consectetur. Proident aliqua occaecat nostrud sit ipsum.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 3,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 47,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 14,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 26,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "isActive": true,
+      "name": "OZEAN",
+      "description": "Do sint adipisicing adipisicing irure eu consequat anim velit mollit ullamco sint. Proident officia occaecat labore pariatur deserunt nisi amet eu magna. Tempor pariatur adipisicing ut sunt occaecat dolor et veniam consequat aliqua.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 51,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "isActive": false,
+      "name": "BOLAX",
+      "description": "Enim ad commodo adipisicing cupidatat minim tempor sunt nisi. Officia est labore nulla excepteur nulla fugiat adipisicing irure aliquip. Aliquip excepteur magna commodo laborum Lorem.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 14,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 28,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 26,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 30,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "isActive": true,
+      "name": "DANCITY",
+      "description": "Culpa cupidatat consectetur dolor sit non culpa nisi dolor id non irure aute ea. Labore excepteur mollit labore cupidatat velit cupidatat consequat qui dolore exercitation qui Lorem ut velit. Minim non ipsum tempor ex magna duis in.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 49,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 56,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 58,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 1,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "isActive": true,
+      "name": "GEEKUS",
+      "description": "Irure cillum ipsum eu laborum labore pariatur nisi aute ullamco sit laboris. Commodo quis nulla velit eu adipisicing culpa aute adipisicing incididunt aute. Eu proident ad sint in mollit enim qui. Aliquip ipsum est quis id dolore dolore ut mollit ullamco ea.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 33,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "isActive": false,
+      "name": "ECRAZE",
+      "description": "Qui id nisi enim officia sint exercitation ex Lorem eiusmod dolore in irure. Laborum proident ullamco nisi pariatur in. Enim dolore laborum adipisicing incididunt mollit irure sunt dolore. Do eiusmod commodo enim qui sunt officia nostrud ut qui cupidatat incididunt ullamco. Amet in adipisicing esse Lorem eu enim consequat cillum est cupidatat fugiat laboris. Incididunt enim ad sint aliqua fugiat excepteur. Voluptate ut elit et eu est labore.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 39,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "compId": 23,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 32,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "compId": 1,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "isActive": false,
+      "name": "TALKOLA",
+      "description": "Amet est irure anim et incididunt. Et tempor minim consequat dolore aliqua aute. Proident ut enim aliquip excepteur sit ad duis ipsum elit consequat ullamco duis et. Deserunt enim aliqua est sint. Duis et fugiat amet voluptate tempor Lorem.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 32,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 18,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "isActive": false,
+      "name": "FLEXIGEN",
+      "description": "Occaecat voluptate magna quis qui dolor non. Deserunt enim Lorem minim consequat consectetur non dolor ad. Nulla eu excepteur culpa laboris non quis reprehenderit Lorem anim tempor tempor. Nulla eu reprehenderit aliqua ea in occaecat incididunt pariatur quis commodo aliquip ex magna. Dolor do exercitation ad tempor veniam nostrud esse do adipisicing voluptate aliqua. Aliqua commodo exercitation consequat consectetur commodo quis culpa non aliquip culpa ex cillum. Magna tempor aliqua ullamco duis anim mollit anim occaecat.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 22,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 42,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 9,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "compId": 36,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "compId": 7,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "isActive": true,
+      "name": "NETERIA",
+      "description": "Exercitation qui irure ipsum officia. Aliqua occaecat dolor labore et dolore sit magna cupidatat. Minim et pariatur esse do aliqua duis laborum nulla commodo. Nostrud ea ut sint excepteur esse fugiat elit quis minim eu proident. Id tempor officia eu cupidatat culpa id elit exercitation in eu exercitation sint. Deserunt enim eu est proident nostrud aute consectetur.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 29,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 48,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 15,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "isActive": false,
+      "name": "MAGNEMO",
+      "description": "Deserunt fugiat pariatur aliqua ex quis. Sint commodo reprehenderit qui ullamco irure sit Lorem ad Lorem adipisicing non Lorem. Officia non in nisi est cillum amet deserunt mollit id commodo quis.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 51,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 54,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "compId": 18,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "compId": 12,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "isActive": false,
+      "name": "XLEEN",
+      "description": "Fugiat id irure culpa irure incididunt aliqua velit esse ex deserunt dolore elit qui laborum. Ad duis proident adipisicing quis commodo sunt veniam. Nulla ipsum veniam eiusmod sint.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 30,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 10,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 20,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "isActive": true,
+      "name": "PARAGONIA",
+      "description": "Proident cillum est fugiat laboris cupidatat do. Laboris deserunt ad eu anim ullamco tempor sit amet officia non. Pariatur ut esse consectetur laborum irure. Non minim dolor nisi est non magna aliqua est cupidatat esse quis esse. Exercitation cillum amet nulla consequat.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 30,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 53,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 6,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "compId": 54,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "isActive": true,
+      "name": "CORPORANA",
+      "description": "Velit exercitation id tempor velit magna laboris ullamco ut incididunt id velit duis proident occaecat. Nisi do deserunt deserunt et. Id exercitation nulla labore aliquip ex velit magna occaecat et excepteur. Minim labore commodo ipsum eu. Cillum nulla occaecat occaecat ut culpa id velit duis. Cupidatat do reprehenderit cillum eiusmod magna exercitation ea exercitation est Lorem laborum consequat enim Lorem. Aute quis aliqua duis voluptate proident quis aute proident elit veniam culpa sunt adipisicing proident.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 11,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 47,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 40,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "compId": 8,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "isActive": false,
+      "name": "SCHOOLIO",
+      "description": "Irure ex adipisicing aute Lorem quis amet nulla est do excepteur fugiat dolore. In tempor est quis incididunt duis irure irure sint aute laboris. Magna exercitation sunt officia tempor adipisicing.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 4,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 35,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "isActive": false,
+      "name": "ELENTRIX",
+      "description": "Et enim aliquip eu eiusmod elit quis irure quis nisi cillum cupidatat occaecat laborum ad. Consectetur velit deserunt cupidatat aliqua cupidatat laborum commodo sint est aute officia ipsum. Duis laboris eu do aute enim consequat minim pariatur. Do nostrud culpa duis laborum. Excepteur nostrud duis cupidatat ea sint anim minim voluptate.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 14,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 51,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 19,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "compId": 35,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "isActive": false,
+      "name": "GEEKOSIS",
+      "description": "Veniam Lorem et tempor duis. Elit officia velit id anim ut est consequat. Mollit laboris incididunt ullamco in proident aliquip in deserunt nulla velit velit ullamco nostrud cillum. Quis ad labore consectetur incididunt cillum. Non laborum adipisicing consequat consequat ea.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 20,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "isActive": true,
+      "name": "TRIPSCH",
+      "description": "Aliquip cillum aliquip laborum ullamco sunt. Nisi esse ex velit cillum id minim sit. Enim nostrud laborum officia dolor qui veniam culpa consequat culpa veniam eiusmod. Excepteur occaecat deserunt sunt cupidatat minim Lorem sit dolore. Velit pariatur nisi dolor labore esse aliqua irure laborum.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 60,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 50,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 55,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 30,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "compId": 3,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "isActive": false,
+      "name": "ISOLOGIA",
+      "description": "Voluptate nulla in magna sit sint non occaecat adipisicing. Deserunt ex do magna minim ut aliqua elit officia reprehenderit aute ad. Veniam reprehenderit eu minim id dolor cupidatat occaecat dolor. Dolor reprehenderit sint laborum minim reprehenderit Lorem. Laboris deserunt ut aliqua incididunt deserunt aliqua adipisicing commodo qui ullamco laboris excepteur laboris eu. Fugiat ex elit amet eu est et proident ut et nostrud tempor. Anim duis laborum ad pariatur ad adipisicing minim exercitation et mollit do nisi veniam non.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 58,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 55,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "compId": 28,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "isActive": true,
+      "name": "ZAYA",
+      "description": "Enim labore velit proident amet id quis minim. Ipsum culpa dolor ad Lorem incididunt cupidatat officia magna quis laboris commodo eu tempor pariatur. Culpa magna sunt ullamco do fugiat anim commodo. Et ut pariatur deserunt laborum ut qui.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 39,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 12,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 5,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "isActive": true,
+      "name": "FLUMBO",
+      "description": "Mollit ea eu consequat magna reprehenderit aliquip mollit cillum est aliquip aliquip. Aute velit occaecat dolor velit tempor in consequat Lorem ea cillum cupidatat nulla. Consequat ut ipsum aliquip quis sint laboris commodo laboris eu ea. Incididunt labore cillum adipisicing fugiat nisi proident excepteur et. Tempor tempor id amet elit incididunt cillum occaecat aliquip mollit ad magna laborum ullamco. Duis anim cupidatat mollit amet.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 9,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "compId": 1,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 27,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 4,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "isActive": true,
+      "name": "AQUAMATE",
+      "description": "Id cupidatat ea anim quis tempor consectetur sunt cillum velit dolore excepteur reprehenderit laboris. Non eu tempor est adipisicing magna commodo. Aliqua ad qui duis quis.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 2,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 13,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "isActive": true,
+      "name": "TECHMANIA",
+      "description": "Ullamco magna aliqua dolor est id nisi anim labore pariatur. Irure voluptate laboris laborum consequat. Sit nostrud Lorem do sit ipsum deserunt consectetur. Elit laboris et ullamco dolor. Veniam nostrud tempor nostrud nisi esse eu. Ex mollit ex velit dolore ut exercitation culpa dolore.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 32,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 47,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 6,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 57,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "isActive": true,
+      "name": "EPLOSION",
+      "description": "Adipisicing exercitation ex esse cupidatat nostrud magna. Minim mollit laboris occaecat elit tempor aliquip in dolore anim adipisicing voluptate cillum excepteur. Consequat non incididunt et esse.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 26,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 13,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 9,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "isActive": false,
+      "name": "COMTREK",
+      "description": "Esse anim non sit consectetur mollit. Minim cupidatat aliquip incididunt minim voluptate qui. Est commodo do excepteur aliqua mollit aliquip in laborum irure sunt eu sit.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 36,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 51,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 35,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "isActive": false,
+      "name": "EXOSTREAM",
+      "description": "Aliqua anim magna et ex. Nisi ea tempor ipsum excepteur esse Lorem et Lorem laboris non tempor cillum sunt proident. Non ex occaecat nulla ea sint enim est sunt dolore cillum eiusmod elit voluptate.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 23,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "isActive": true,
+      "name": "MEMORA",
+      "description": "Veniam velit nostrud eiusmod nulla. Velit reprehenderit irure irure veniam cupidatat sit est non nulla tempor. Irure velit magna voluptate minim amet laboris. Ea anim quis pariatur enim. Reprehenderit reprehenderit nulla et voluptate ex pariatur veniam minim enim Lorem occaecat magna excepteur mollit.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 46,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 11,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "isActive": false,
+      "name": "RADIANTIX",
+      "description": "Non nostrud nostrud id mollit do ea est sit exercitation elit. Amet ex velit aute aliquip elit officia fugiat irure voluptate dolore cupidatat. Consequat dolor eiusmod reprehenderit elit enim fugiat exercitation. Exercitation fugiat aliquip in laboris. Qui proident ullamco cillum culpa do aute aliquip pariatur culpa ullamco. Exercitation exercitation sunt pariatur officia aliquip cupidatat sunt adipisicing.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 4,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "isActive": false,
+      "name": "XYMONK",
+      "description": "Ad aliquip exercitation quis velit nostrud eu eiusmod amet velit anim ex. Exercitation officia laborum id ex ut minim quis nostrud duis occaecat. Reprehenderit nisi enim elit dolor. Elit esse quis aliqua dolore ipsum cupidatat incididunt esse aliquip. Aliquip cupidatat veniam tempor exercitation ullamco tempor. Consectetur pariatur cillum et aliquip sit reprehenderit ex culpa aliquip elit nostrud dolore aute. Laborum dolor veniam officia commodo reprehenderit culpa nisi anim officia.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 22,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "isActive": false,
+      "name": "TOURMANIA",
+      "description": "Deserunt do enim adipisicing reprehenderit sit magna ea dolor. Irure cillum fugiat qui pariatur magna occaecat cupidatat est reprehenderit. Officia do fugiat in proident do. Non dolor veniam sit ullamco. Voluptate duis sunt quis ad id magna irure aliquip incididunt ea id magna.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 57,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "compId": 3,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "compId": 46,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "compId": 40,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "compId": 54,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "isActive": false,
+      "name": "IDEGO",
+      "description": "Irure cupidatat irure commodo voluptate sunt nisi laborum anim et sit. Ad sint cillum voluptate tempor incididunt mollit tempor reprehenderit excepteur anim anim esse sit fugiat. In sunt sunt consequat fugiat excepteur nostrud voluptate enim velit enim fugiat amet sunt nulla. Amet occaecat minim officia reprehenderit Lorem adipisicing excepteur. Aute qui nulla laborum pariatur labore mollit aliqua culpa do.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 13,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 29,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 36,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "isActive": false,
+      "name": "VELOS",
+      "description": "Aliquip fugiat velit est occaecat. Do anim ea ad dolor irure elit non incididunt reprehenderit ad anim excepteur irure. Eiusmod in in eiusmod ipsum minim deserunt amet culpa incididunt.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 22,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "compId": 15,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 11,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "isActive": false,
+      "name": "JAMNATION",
+      "description": "Laboris quis amet sint non fugiat commodo amet do. Magna nisi id duis incididunt esse pariatur. Fugiat aliquip dolor non aliquip quis.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 35,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 29,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 29,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "compId": 52,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "compId": 56,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "isActive": true,
+      "name": "CINESANCT",
+      "description": "Culpa irure sint in amet. Commodo excepteur qui voluptate pariatur aute. Ea tempor ea labore consequat reprehenderit est ut elit consequat quis velit est esse.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 12,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 21,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 10,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 22,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "compId": 55,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "isActive": false,
+      "name": "KOOGLE",
+      "description": "Id enim laboris exercitation ullamco Lorem tempor cupidatat incididunt adipisicing. Anim qui labore reprehenderit Lorem. Aliquip mollit laborum exercitation fugiat sunt. Fugiat exercitation sint exercitation excepteur reprehenderit ullamco proident consectetur in sit. Exercitation anim consequat fugiat in voluptate pariatur minim dolore veniam. Voluptate commodo nulla duis adipisicing enim nulla exercitation commodo occaecat nulla esse. Consectetur et enim enim fugiat velit id laborum.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 48,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "isActive": false,
+      "name": "ZILLATIDE",
+      "description": "Laboris elit eu minim cupidatat minim esse. Ex commodo quis in est enim. Laborum commodo deserunt sunt cillum elit nulla velit laborum ullamco veniam elit ex.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 41,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "isActive": true,
+      "name": "DYMI",
+      "description": "Consequat amet ut ea pariatur incididunt velit et amet. Nulla enim tempor consequat anim amet eiusmod velit qui voluptate excepteur nisi nisi nostrud. Eiusmod ipsum sint ipsum ad nostrud proident. Culpa ipsum et aliqua ex commodo sint nisi excepteur cupidatat labore ea. Irure dolor ex adipisicing id culpa id esse sunt ad amet nulla adipisicing. Do adipisicing nulla nulla sint dolore ea labore nisi est anim do aliquip aliquip.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 60,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 33,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 32,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 26,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "compId": 41,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "isActive": false,
+      "name": "SULTRAX",
+      "description": "Nulla qui in amet id nostrud esse occaecat dolor pariatur ipsum eu duis tempor non. Ex mollit tempor proident cillum. Non Lorem ad cillum sit veniam non excepteur sunt voluptate elit. Officia voluptate aliquip dolor cupidatat sint veniam veniam magna magna. Occaecat nostrud fugiat dolore et nisi culpa. Aute ea duis esse minim do eu.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 56,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 2,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "compId": 16,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "compId": 43,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "compId": 57,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "isActive": true,
+      "name": "HAIRPORT",
+      "description": "Eu et voluptate do ea cillum. Reprehenderit ipsum veniam proident fugiat. Est ex reprehenderit quis quis fugiat.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 35,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 59,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "compId": 52,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 15,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "compId": 46,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "isActive": false,
+      "name": "ANACHO",
+      "description": "Est nisi sit eiusmod exercitation fugiat minim amet ipsum exercitation in qui. Ea do nulla voluptate proident amet enim deserunt duis ipsum pariatur nisi. Cupidatat nisi excepteur ut sint incididunt pariatur veniam dolore dolore elit tempor.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 56,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "compId": 6,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 45,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 19,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "isActive": true,
+      "name": "RENOVIZE",
+      "description": "In adipisicing do ut aliqua ea mollit fugiat. Veniam nisi ullamco id quis reprehenderit. Sunt laborum ipsum enim fugiat nulla Lorem cillum culpa non quis mollit laborum. Ad enim culpa tempor anim occaecat culpa voluptate reprehenderit nulla veniam esse aliquip officia amet. Amet nulla fugiat nulla culpa cupidatat incididunt duis laboris aliquip quis officia id sit consectetur. Eu velit quis deserunt Lorem voluptate id reprehenderit proident adipisicing proident occaecat.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 57,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "compId": 51,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "compId": 9,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "compId": 38,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "isActive": false,
+      "name": "MUSAPHICS",
+      "description": "Reprehenderit cupidatat non enim laboris ex excepteur aute pariatur incididunt labore esse laboris. Tempor nisi excepteur nostrud incididunt. Nostrud dolor elit est cupidatat veniam do nostrud mollit Lorem est esse. Ex fugiat voluptate magna cupidatat dolor cillum Lorem et ullamco cillum. Reprehenderit nisi ullamco sint elit sint esse excepteur non dolor ea nisi voluptate et.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 7,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 50,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "compId": 35,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "compId": 34,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "compId": 42,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "isActive": false,
+      "name": "OPTYK",
+      "description": "Nisi qui pariatur occaecat magna eiusmod officia qui esse dolor sit. Sunt commodo dolore duis aliqua nulla ipsum Lorem fugiat veniam eiusmod. Ex officia laborum aliqua duis non officia aliqua magna nisi. Nisi Lorem pariatur tempor commodo proident mollit in. Magna enim reprehenderit proident elit elit non. Officia consequat aute incididunt aute dolore culpa elit in labore quis dolore.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 28,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "compId": 56,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "isActive": false,
+      "name": "ZILENCIO",
+      "description": "Ad excepteur ipsum in mollit laborum nulla Lorem. Eiusmod deserunt duis magna laboris ipsum nostrud mollit duis est mollit laboris. Labore excepteur qui sunt eu fugiat tempor eiusmod voluptate mollit. Dolore deserunt elit proident magna esse.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 16,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "compId": 7,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "isActive": false,
+      "name": "EVENTEX",
+      "description": "Velit elit consectetur amet consectetur. Esse proident pariatur quis nisi pariatur ex voluptate. Dolore esse elit anim enim est aliquip nisi do nulla ea consectetur.\r\n",
+      "comps": [
+        {
+          "id": 0,
+          "compId": 9,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "jt100",
+      "description": "Julian test 1000",
+      "components": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 61,
+      "name": "test 2",
+      "description": "This is a test of comp",
+      "components": [
+        {
+          "id": 3,
+          "isActive": true,
+          "name": "ZOLARITY",
+          "phone": "+1 (937) 516-2662",
+          "cost": 363.07,
+          "address": "911 Garnet Street, Edgar,84",
+          "email": "garzagoodman@zolarity.com",
+          "description": "aute voluptate ut id pariatur ea commodo in",
+          "count": 1
+        },
+        {
+          "id": 6,
+          "isActive": false,
+          "name": "PHOTOBIN",
+          "phone": "+1 (982) 502-2364",
+          "cost": 343.62,
+          "address": "943 Bijou Avenue, Maury,91",
+          "email": "garzagoodman@photobin.com",
+          "description": "et culpa occaecat cupidatat anim elit eiusmod incididunt",
+          "count": 3
+        },
+        {
+          "id": 2,
+          "isActive": false,
+          "name": "RODEOCEAN",
+          "phone": "+1 (980) 521-3584",
+          "cost": 331.45,
+          "address": "417 Howard Alley, Crenshaw,26",
+          "email": "garzagoodman@rodeocean.com",
+          "description": "proident elit ad sit labore esse voluptate eiusmod",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "kt1234",
+      "description": "Capilary blood kit",
+      "components": [
+        {
+          "id": 5,
+          "isActive": false,
+          "name": "IMMUNICS",
+          "phone": "+1 (938) 576-2674",
+          "cost": 356.28,
+          "address": "217 Bowne Street, Trinway,54",
+          "email": "garzagoodman@immunics.com",
+          "description": "eu reprehenderit aliquip aliquip consequat eu laborum occaecat",
+          "count": 20
+        },
+        {
+          "id": 1,
+          "isActive": false,
+          "name": "APEXIAS",
+          "phone": "+1 (850) 481-2555",
+          "cost": 380.09,
+          "address": "582 Havens Place, Allendale,31",
+          "email": "garzagoodman@apexia.com",
+          "description": "qui nostrud esse magna id proident nostrud elit",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "KT111",
+      "description": "",
+      "components": [
+        {
+          "id": 0,
+          "isActive": true,
+          "name": "ISOSPHERE",
+          "phone": "+1 (834) 549-3959",
+          "cost": 337.51,
+          "address": "816 Albemarle Road, Condon,29",
+          "email": "garzagoodman@isosphere.com",
+          "description": "Lorem ad in mollit laborum ex reprehenderit dolor",
+          "count": 2
+        },
+        {
+          "id": 2,
+          "isActive": false,
+          "name": "RODEOCEAN",
+          "phone": "+1 (980) 521-3584",
+          "cost": 331.45,
+          "address": "417 Howard Alley, Crenshaw,26",
+          "email": "garzagoodman@rodeocean.com",
+          "description": "proident elit ad sit labore esse voluptate eiusmod",
+          "count": 4
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 0,
+      "isActive": false,
+      "name": "OVIUM",
+      "description": "Occaecat id commodo non laboris adipisicing ipsum excepteur anim. Ut ex et dolor Lorem voluptate deserunt. Sit elit occaecat dolore exercitation. Dolore sint voluptate enim qui in magna ea reprehenderit. Officia eiusmod laboris duis officia velit veniam velit occaecat excepteur sint ex fugiat. Ut nostrud elit nostrud labore occaecat aliquip pariatur. Deserunt dolor aute cillum dolore pariatur consectetur incididunt.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 29,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 43,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 56,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 44,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 48,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 6,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 39,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "kitId": 2,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 38,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 36,
+          "count": 5
+        },
+        {
+          "id": 10,
+          "kitId": 15,
+          "count": 3
+        },
+        {
+          "id": 11,
+          "kitId": 3,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 2,
+          "count": 4
+        },
+        {
+          "id": 13,
+          "kitId": 47,
+          "count": 1
+        },
+        {
+          "id": 14,
+          "kitId": 59,
+          "count": 1
+        },
+        {
+          "id": 15,
+          "kitId": 45,
+          "count": 4
+        },
+        {
+          "id": 16,
+          "kitId": 7,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "isActive": true,
+      "name": "BUZZNESS",
+      "description": "Lorem ullamco quis consequat minim cupidatat ullamco dolor. Consequat officia sunt sunt nostrud amet commodo ea magna sit exercitation non ut. Incididunt nulla irure Lorem enim ad qui officia. Quis id ea sint nostrud pariatur veniam dolor minim deserunt ut.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 53,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 7,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 31,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "isActive": false,
+      "name": "MUSAPHICS",
+      "description": "Cupidatat laboris incididunt incididunt deserunt. Nulla irure eu fugiat quis mollit veniam culpa culpa qui commodo mollit. Incididunt amet veniam laborum laborum nostrud sunt nisi enim pariatur mollit.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 28,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "name": "UTARIAN",
+      "description": "Fugiat sint velit duis velit cupidatat dolor sunt ullamco. Proident tempor nulla fugiat id laboris elit do nulla adipisicing aliquip deserunt proident ipsum. Labore duis amet dolor culpa laboris cillum pariatur est veniam culpa pariatur do voluptate. Qui ullamco reprehenderit dolor aliqua. Commodo nulla minim quis sit cillum tempor qui id in anim velit anim dolore Lorem. Eu voluptate veniam ipsum non ullamco deserunt laborum velit consectetur labore quis amet. Nostrud magna dolor incididunt pariatur.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 4,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 40,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 55,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 47,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 20,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 56,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 49,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 43,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 32,
+          "count": 4
+        },
+        {
+          "id": 10,
+          "kitId": 44,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 2,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 18,
+          "count": 2
+        },
+        {
+          "id": 13,
+          "kitId": 32,
+          "count": 2
+        },
+        {
+          "id": 14,
+          "kitId": 56,
+          "count": 2
+        },
+        {
+          "id": 15,
+          "kitId": 28,
+          "count": 1
+        },
+        {
+          "id": 16,
+          "kitId": 32,
+          "count": 3
+        },
+        {
+          "id": 17,
+          "kitId": 49,
+          "count": 5
+        },
+        {
+          "id": 18,
+          "kitId": 38,
+          "count": 4
+        },
+        {
+          "id": 19,
+          "kitId": 24,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "isActive": false,
+      "name": "VIRVA",
+      "description": "Eiusmod tempor adipisicing dolore sint sint consectetur. Amet nisi et ex eiusmod laboris voluptate pariatur. Ad ea dolor dolor nulla Lorem proident pariatur. Magna amet pariatur cupidatat tempor quis ullamco enim sit anim occaecat aliqua in. Eu sint aliqua laborum aliquip nostrud. Ex quis nisi cupidatat esse aute do laborum culpa esse aliquip do eu dolore. Ea culpa qui mollit ex in in nulla ea labore excepteur dolor aute.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 50,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 59,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 16,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 60,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 37,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 38,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "name": "ZUVY",
+      "description": "Pariatur tempor qui do veniam elit consectetur fugiat aliqua. Non cillum aute et officia ullamco nostrud et dolor ea voluptate labore. Aliqua aliqua elit occaecat velit fugiat sunt laboris occaecat. Irure ut laboris proident quis minim duis pariatur veniam in deserunt ad consequat. Enim proident ut Lorem aliquip et qui anim tempor anim proident. Qui velit nulla occaecat et fugiat. Culpa aliqua duis minim sunt sunt velit magna minim quis.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 49,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 48,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 46,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 21,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 48,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 34,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 18,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 32,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 21,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 22,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "name": "APPLICA",
+      "description": "Id est ea ex pariatur enim dolor. Et quis Lorem anim duis eiusmod non ullamco ullamco. Magna amet Lorem tempor id do Lorem qui ut irure id labore incididunt minim duis. Labore enim mollit exercitation do officia fugiat id consequat sunt incididunt. Velit fugiat labore dolor cupidatat anim veniam nulla ex elit commodo ea quis. Tempor voluptate et sint qui laboris sit culpa incididunt anim aute labore. Cillum commodo aliqua aute ad officia esse nostrud quis nulla.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 60,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 48,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 52,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 13,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 12,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 44,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 31,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 49,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 32,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 53,
+          "count": 4
+        },
+        {
+          "id": 10,
+          "kitId": 36,
+          "count": 5
+        },
+        {
+          "id": 11,
+          "kitId": 6,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 13,
+          "count": 2
+        },
+        {
+          "id": 13,
+          "kitId": 43,
+          "count": 5
+        },
+        {
+          "id": 14,
+          "kitId": 25,
+          "count": 1
+        },
+        {
+          "id": 15,
+          "kitId": 12,
+          "count": 5
+        },
+        {
+          "id": 16,
+          "kitId": 5,
+          "count": 4
+        },
+        {
+          "id": 17,
+          "kitId": 33,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "name": "SLAX",
+      "description": "Officia adipisicing amet et eiusmod anim ut enim culpa aliquip. Mollit esse magna commodo deserunt et sit do sunt. Do excepteur tempor aute id eiusmod sint reprehenderit labore ullamco qui. Deserunt irure nostrud eiusmod officia. Incididunt commodo laborum velit Lorem velit minim laborum exercitation Lorem et excepteur cillum. Minim incididunt ex laboris quis et amet exercitation anim cupidatat pariatur amet. Ex consectetur non duis enim esse voluptate qui ut pariatur aute ea.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 42,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 37,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "isActive": false,
+      "name": "RONBERT",
+      "description": "Voluptate in ad cupidatat Lorem et tempor nostrud nostrud officia eu nisi quis velit. Adipisicing eu nisi fugiat velit nulla tempor et aliqua ipsum aute ipsum aliquip labore. Non nostrud proident et non aute in aliqua. Et labore Lorem Lorem pariatur anim commodo dolore nisi ad nostrud ex. Ad incididunt esse minim est laboris pariatur non quis elit nisi eu. Incididunt aliquip minim ex magna fugiat id incididunt in officia nulla.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 52,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 11,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "isActive": true,
+      "name": "TYPHONICA",
+      "description": "Amet eu pariatur aliqua culpa laborum irure ex. Irure consectetur nulla eiusmod cupidatat velit. Dolor adipisicing eu sint exercitation ipsum dolor aliqua do esse sint eiusmod veniam. Tempor incididunt in pariatur id non duis eiusmod eu velit veniam dolore.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 5,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 57,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 25,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 41,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 19,
+          "count": 4
+        },
+        {
+          "id": 5,
+          "kitId": 48,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 40,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 54,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 41,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 20,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 60,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "isActive": true,
+      "name": "KLUGGER",
+      "description": "Aliquip ut adipisicing laborum incididunt dolore esse ex occaecat aliquip aliquip aliqua do mollit. Voluptate magna cillum reprehenderit in ullamco ut ullamco aliquip esse in. Dolor commodo Lorem ipsum magna exercitation.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 14,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 19,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "isActive": true,
+      "name": "ANIXANG",
+      "description": "Proident in duis ipsum est deserunt veniam. Ullamco non mollit enim nulla in laboris non reprehenderit. Eu ut ad cillum id. Dolor ipsum cillum Lorem veniam. Cupidatat dolore exercitation culpa labore excepteur qui sint. Non irure elit deserunt quis sit et.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 14,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 49,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 27,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 25,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 27,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 52,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 12,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 60,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 31,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 26,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 39,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 53,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "isActive": true,
+      "name": "TALENDULA",
+      "description": "Esse ipsum labore elit ut incididunt qui mollit mollit dolor aliqua ipsum ea deserunt dolor. Dolor esse nulla commodo eu mollit cupidatat nulla aliqua duis. Officia in aliquip dolore amet officia occaecat in labore officia. Aliquip enim enim est occaecat duis esse esse fugiat laborum ex.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 7,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 43,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 60,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 15,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 46,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "isActive": false,
+      "name": "SHADEASE",
+      "description": "Occaecat magna commodo non excepteur fugiat deserunt adipisicing. Aute est ullamco pariatur aute nisi aute. Laboris laboris veniam eu ea in eiusmod consectetur laboris amet duis elit eu velit anim. Esse laborum sunt esse nulla et. Pariatur ea sit est qui eiusmod commodo Lorem eu labore reprehenderit consequat magna nostrud. Mollit tempor cupidatat eiusmod ipsum laboris sit ullamco dolor veniam pariatur pariatur nostrud.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 24,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "isActive": false,
+      "name": "TECHTRIX",
+      "description": "Ipsum ut consequat magna voluptate reprehenderit consequat culpa cillum qui. Est laborum ipsum elit eu reprehenderit aliqua occaecat ullamco duis aute officia aute. Adipisicing id minim cillum ut anim commodo adipisicing do id voluptate consequat id. Sint pariatur aliqua magna incididunt consectetur dolor minim eu irure mollit aliqua excepteur. Do labore occaecat ipsum culpa mollit occaecat. Voluptate culpa non voluptate consectetur nisi.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 6,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 26,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 33,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 17,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 3,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 21,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 45,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 23,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 47,
+          "count": 3
+        },
+        {
+          "id": 9,
+          "kitId": 5,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 4,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 56,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 13,
+          "kitId": 29,
+          "count": 1
+        },
+        {
+          "id": 14,
+          "kitId": 46,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 39,
+          "count": 5
+        },
+        {
+          "id": 16,
+          "kitId": 24,
+          "count": 4
+        },
+        {
+          "id": 17,
+          "kitId": 15,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "isActive": true,
+      "name": "XERONK",
+      "description": "Laborum ex laborum cillum in do amet ut exercitation labore minim adipisicing esse quis. Fugiat irure excepteur dolor ad amet consectetur. Quis anim cupidatat sit adipisicing irure magna excepteur laborum duis. Deserunt excepteur quis sint pariatur officia incididunt minim sunt commodo ut et do veniam.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 39,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 46,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 36,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 52,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 31,
+          "count": 4
+        },
+        {
+          "id": 5,
+          "kitId": 49,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 43,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 47,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "isActive": true,
+      "name": "XPLOR",
+      "description": "Nisi minim amet labore et aliquip proident adipisicing mollit ad voluptate. Voluptate dolor ad sint consectetur sit. Ullamco dolore anim ea adipisicing anim ut. Ea reprehenderit duis excepteur pariatur sit qui eu sit tempor elit ipsum mollit. Velit ea eu dolore occaecat occaecat ex. Eiusmod reprehenderit minim amet reprehenderit cupidatat sunt duis ad in in reprehenderit minim.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 44,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 6,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 14,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 15,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 51,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 12,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 45,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 41,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 2,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 32,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "isActive": true,
+      "name": "EVIDENDS",
+      "description": "Id laboris sint aute occaecat ad amet nostrud incididunt veniam in ex proident commodo commodo. Culpa eiusmod adipisicing veniam voluptate Lorem est nulla ullamco cillum culpa sunt. Ut qui amet aute veniam voluptate id pariatur anim culpa nostrud nostrud. Commodo mollit nostrud ullamco proident adipisicing labore incididunt consequat et est in. Ex irure minim commodo irure eiusmod. Veniam et eu reprehenderit irure reprehenderit officia. Reprehenderit nisi irure sunt minim sit aute ea voluptate voluptate laborum eu nostrud reprehenderit nisi.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 50,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 41,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 54,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 13,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 41,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 35,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 6,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 47,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 1,
+          "count": 4
+        },
+        {
+          "id": 10,
+          "kitId": 41,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 15,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 44,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 27,
+          "count": 2
+        },
+        {
+          "id": 14,
+          "kitId": 39,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "isActive": false,
+      "name": "UNEEQ",
+      "description": "Pariatur aliquip ad pariatur non labore tempor. Proident in esse mollit culpa anim do laboris tempor voluptate sit cillum sint commodo. Labore pariatur anim enim sunt incididunt ea.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 35,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 9,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 38,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 8,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 43,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 4,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 40,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 10,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 53,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 20,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 20,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 7,
+          "count": 5
+        },
+        {
+          "id": 12,
+          "kitId": 24,
+          "count": 2
+        },
+        {
+          "id": 13,
+          "kitId": 18,
+          "count": 4
+        },
+        {
+          "id": 14,
+          "kitId": 59,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 43,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "isActive": false,
+      "name": "SENSATE",
+      "description": "Laboris sunt tempor eiusmod cillum cupidatat. Exercitation fugiat nostrud culpa excepteur ex nulla ullamco Lorem voluptate elit. Laborum dolore commodo ea et laborum. Et id dolor mollit est mollit. Cupidatat sit nostrud labore laborum cupidatat pariatur dolore dolore incididunt et dolore adipisicing.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 14,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 32,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 38,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 8,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 33,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 40,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 15,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 28,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "isActive": false,
+      "name": "AMRIL",
+      "description": "Qui ut nostrud esse sunt in eu aliquip voluptate eiusmod proident qui eu. Ea id nulla et irure laboris est nisi laborum. Adipisicing consequat proident elit ex eu mollit culpa officia veniam mollit veniam. Culpa pariatur occaecat eu ipsum excepteur proident aute irure ea minim esse occaecat laboris ipsum. Veniam labore proident occaecat sint et quis nisi nulla. Deserunt occaecat enim ea consectetur amet commodo irure nisi voluptate tempor aliqua et cupidatat.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 5,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 19,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 15,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 19,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 1,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 26,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 21,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 20,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 15,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 49,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 54,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 45,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 28,
+          "count": 3
+        },
+        {
+          "id": 13,
+          "kitId": 4,
+          "count": 3
+        },
+        {
+          "id": 14,
+          "kitId": 14,
+          "count": 3
+        },
+        {
+          "id": 15,
+          "kitId": 19,
+          "count": 2
+        },
+        {
+          "id": 16,
+          "kitId": 38,
+          "count": 2
+        },
+        {
+          "id": 17,
+          "kitId": 21,
+          "count": 3
+        },
+        {
+          "id": 18,
+          "kitId": 49,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "isActive": true,
+      "name": "SKYBOLD",
+      "description": "Pariatur commodo excepteur deserunt est nostrud proident nisi ad aliqua ullamco commodo est irure. Cupidatat aliquip ex aute est deserunt esse est. Sint cillum consectetur aliquip ad. Id mollit est ad commodo. Ut nulla consectetur voluptate dolore aliqua in tempor ipsum adipisicing do. Cupidatat deserunt veniam irure non ad ex qui exercitation irure amet officia occaecat.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 26,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 39,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "isActive": true,
+      "name": "SHOPABOUT",
+      "description": "Sint pariatur Lorem est veniam eiusmod excepteur minim deserunt anim eu et ipsum id sunt. Laborum magna non laboris veniam est sint duis sunt elit proident do. Sit aute labore dolor enim culpa fugiat cillum nostrud. Proident duis cupidatat amet ad culpa officia esse velit est reprehenderit do. Ipsum eu ea excepteur eu.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 23,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 39,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 57,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 25,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 55,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 25,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 57,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 32,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 46,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 19,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 38,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 45,
+          "count": 2
+        },
+        {
+          "id": 14,
+          "kitId": 42,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 8,
+          "count": 1
+        },
+        {
+          "id": 16,
+          "kitId": 10,
+          "count": 5
+        },
+        {
+          "id": 17,
+          "kitId": 25,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "isActive": true,
+      "name": "GEEKMOSIS",
+      "description": "Labore occaecat eiusmod ad minim magna. Velit exercitation sit fugiat proident. Voluptate incididunt aliquip commodo dolore quis voluptate dolor cupidatat. Elit excepteur non et aliquip reprehenderit eiusmod do Lorem eu.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 43,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 22,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 46,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 52,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 51,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 6,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 60,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 39,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 55,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 31,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 14,
+          "count": 5
+        },
+        {
+          "id": 13,
+          "kitId": 8,
+          "count": 5
+        },
+        {
+          "id": 14,
+          "kitId": 6,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "isActive": false,
+      "name": "PORTICO",
+      "description": "Amet sint nostrud incididunt cillum velit nulla dolor duis aliqua. Officia irure fugiat veniam dolor deserunt. In eiusmod eiusmod ea mollit enim fugiat cupidatat anim aliquip. Nisi id ullamco do velit esse veniam minim laboris adipisicing labore. Nulla et occaecat deserunt dolore culpa eiusmod qui nisi tempor deserunt fugiat.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 5,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 13,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 1,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 9,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 58,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 48,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 21,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "isActive": true,
+      "name": "ENDICIL",
+      "description": "Eu adipisicing ea aliqua proident ut id adipisicing occaecat mollit non aute aliquip reprehenderit est. Sit ipsum non reprehenderit mollit ipsum occaecat exercitation magna consequat. Voluptate est excepteur in laborum sunt commodo amet amet irure enim nostrud nulla. Et veniam aliqua Lorem aliquip sunt magna cupidatat magna in velit nostrud tempor eiusmod. Voluptate mollit exercitation magna sunt.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 10,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 35,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 50,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 12,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 6,
+          "count": 4
+        },
+        {
+          "id": 5,
+          "kitId": 60,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 37,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "kitId": 47,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 44,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 51,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 31,
+          "count": 3
+        },
+        {
+          "id": 11,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 55,
+          "count": 5
+        },
+        {
+          "id": 13,
+          "kitId": 10,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "isActive": true,
+      "name": "ULTRASURE",
+      "description": "Ad sint commodo ut sunt incididunt officia est adipisicing officia Lorem consequat ut non. Ipsum magna exercitation dolor ullamco reprehenderit ullamco magna aute tempor in esse commodo veniam. Elit sunt aute dolore eu ullamco exercitation laborum deserunt. Excepteur sint commodo labore officia reprehenderit fugiat ut occaecat cupidatat. Eiusmod proident ipsum enim quis minim magna esse qui.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 38,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 41,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 17,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 17,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 15,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 39,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 56,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 21,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 11,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 59,
+          "count": 5
+        },
+        {
+          "id": 10,
+          "kitId": 46,
+          "count": 3
+        },
+        {
+          "id": 11,
+          "kitId": 11,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "isActive": false,
+      "name": "NEPTIDE",
+      "description": "Excepteur aliquip est ut Lorem incididunt cupidatat aute officia reprehenderit cupidatat veniam et. Sit eu laboris proident ut in tempor nulla. Fugiat nostrud irure ad ad dolor ex est est quis. Minim id eu occaecat eu aliqua aliqua in aliquip. Ad magna et ut dolor pariatur nisi ad commodo velit excepteur excepteur. Fugiat sit adipisicing irure reprehenderit laborum eu occaecat cupidatat. Duis cupidatat ea nisi est eu magna veniam dolore in culpa ad mollit.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 11,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "isActive": false,
+      "name": "ENJOLA",
+      "description": "Ex est labore ad velit. Adipisicing duis eiusmod ea incididunt. Ad occaecat nisi laboris officia reprehenderit ullamco occaecat duis aute occaecat Lorem mollit consequat quis. Nisi ullamco adipisicing mollit amet labore duis eiusmod duis quis elit. Ipsum aliquip adipisicing amet aute excepteur laborum nisi commodo Lorem sint cupidatat ipsum. Aute ullamco ullamco ad ea non ea cillum sit ex amet id proident qui qui.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 27,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 58,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 30,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 30,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 3,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 17,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 8,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 34,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 27,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 42,
+          "count": 5
+        },
+        {
+          "id": 11,
+          "kitId": 8,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 43,
+          "count": 4
+        },
+        {
+          "id": 13,
+          "kitId": 21,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "isActive": false,
+      "name": "BIFLEX",
+      "description": "Laboris nostrud magna amet mollit aliquip cupidatat sunt nulla deserunt. Sint commodo reprehenderit cupidatat qui ullamco excepteur qui nisi cillum et velit. Tempor anim aute veniam mollit ut.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 60,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 54,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 14,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 24,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 19,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 23,
+          "count": 1
+        },
+        {
+          "id": 8,
+          "kitId": 3,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 58,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "isActive": false,
+      "name": "PLAYCE",
+      "description": "Dolore qui eiusmod cillum consectetur deserunt. Nostrud exercitation velit sint incididunt in pariatur occaecat esse labore eiusmod incididunt mollit irure. Consequat incididunt nulla deserunt dolor Lorem ut tempor commodo duis. Nulla quis proident fugiat eu. Labore consectetur pariatur in dolore. Et proident et id adipisicing Lorem laboris sint aliquip commodo quis deserunt veniam. Cupidatat ut anim do deserunt dolor aliqua veniam.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 59,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "isActive": true,
+      "name": "MANGLO",
+      "description": "Sit enim fugiat mollit amet sunt magna magna ullamco. Laborum Lorem non sunt nostrud. Sunt irure magna veniam nisi consectetur irure commodo aute id labore proident aute.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 59,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 30,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 54,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 56,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 48,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 48,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 41,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 56,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 14,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 12,
+          "count": 1
+        },
+        {
+          "id": 11,
+          "kitId": 39,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 29,
+          "count": 4
+        },
+        {
+          "id": 13,
+          "kitId": 27,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "isActive": false,
+      "name": "OCTOCORE",
+      "description": "Anim qui reprehenderit cillum velit magna est excepteur aliquip nostrud. Consequat aliqua mollit duis consectetur dolore consectetur proident voluptate aliquip tempor nostrud reprehenderit dolor. Fugiat magna laborum aliqua anim aliquip incididunt velit sunt tempor do sit officia. In eiusmod esse ex incididunt nostrud non in ex.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 14,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 7,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 30,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 31,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 36,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 48,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 29,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 7,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 54,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 38,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 25,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 28,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 40,
+          "count": 5
+        },
+        {
+          "id": 14,
+          "kitId": 43,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "isActive": true,
+      "name": "EPLODE",
+      "description": "Labore ipsum sunt adipisicing laboris voluptate officia dolore dolore do tempor in aliqua. Consequat cupidatat ullamco ea id eiusmod. Aute eiusmod incididunt labore eu eiusmod ad anim. Ut laborum dolor velit laboris proident proident ea et magna nostrud consectetur nulla exercitation. Minim laborum ex deserunt elit qui in exercitation consequat consectetur veniam exercitation do quis. Sunt ullamco proident duis pariatur eu elit ad sit labore veniam ut qui. Eu exercitation do voluptate elit ipsum exercitation quis.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 4,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 20,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 4,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "isActive": true,
+      "name": "ISOSURE",
+      "description": "Laboris dolore aliquip velit et est et. Irure mollit veniam reprehenderit esse velit eu irure aute dolor mollit nisi eiusmod. Culpa consequat nisi enim qui cillum irure magna magna reprehenderit sit. Quis esse incididunt ea cillum id. Laboris aliquip non do consectetur officia. Velit commodo ex tempor non incididunt. Nostrud ullamco enim cupidatat nulla enim aute officia quis ullamco esse adipisicing elit nulla.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 32,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 22,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 42,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 37,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 53,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 12,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 35,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 16,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 3,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 15,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 21,
+          "count": 1
+        },
+        {
+          "id": 11,
+          "kitId": 28,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 3,
+          "count": 4
+        },
+        {
+          "id": 13,
+          "kitId": 12,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "isActive": false,
+      "name": "ACUSAGE",
+      "description": "Labore officia velit amet esse et. Nostrud velit est non sit id sint amet fugiat aute. Adipisicing adipisicing anim sint mollit commodo. Ad consectetur enim consectetur mollit cillum ad et. Proident do fugiat esse velit ullamco reprehenderit occaecat commodo magna do tempor. Cillum irure esse minim aliquip exercitation incididunt commodo minim.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 10,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 52,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 4,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 60,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 2,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 53,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 37,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 35,
+          "count": 1
+        },
+        {
+          "id": 8,
+          "kitId": 50,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "isActive": true,
+      "name": "ORBEAN",
+      "description": "Mollit est dolor ullamco aute labore enim labore. Cillum adipisicing Lorem amet dolor incididunt sit officia est magna sunt fugiat occaecat. Laborum ut ipsum nostrud mollit velit. Dolore cillum do eu adipisicing pariatur veniam deserunt elit.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 16,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 32,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 9,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 43,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 47,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 60,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 38,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 33,
+          "count": 2
+        },
+        {
+          "id": 8,
+          "kitId": 2,
+          "count": 3
+        },
+        {
+          "id": 9,
+          "kitId": 10,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 49,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 43,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "isActive": false,
+      "name": "GALLAXIA",
+      "description": "Aute et ut ad esse laboris duis aliqua excepteur consequat ut incididunt velit cillum. Id incididunt quis exercitation mollit incididunt ipsum. Eu nulla quis fugiat fugiat labore dolore pariatur dolore aliquip esse est ad in commodo. Minim dolore nisi minim sit sunt enim eu eiusmod veniam.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 22,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 17,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 51,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 15,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 33,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 51,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "isActive": true,
+      "name": "GYNKO",
+      "description": "Consectetur qui et enim esse consequat sunt proident consequat cillum dolore anim. Aliquip ullamco ut enim ipsum amet aliquip eu quis ut esse excepteur. Labore incididunt ut qui dolore reprehenderit aliquip sunt proident sit nostrud. Culpa exercitation ex velit velit.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 35,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 33,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 52,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 49,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 15,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "kitId": 17,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "isActive": false,
+      "name": "PRIMORDIA",
+      "description": "Tempor culpa id quis magna sit nulla enim proident sunt quis enim eu irure. Laborum quis officia enim cupidatat cillum ut id nisi eiusmod ut ut reprehenderit est labore. Voluptate quis sunt amet laboris est quis laboris. Et velit nisi nisi sunt duis sint adipisicing sunt. Velit et sit ipsum consectetur consectetur eu velit occaecat proident officia cupidatat deserunt est magna.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 18,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 12,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "kitId": 2,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 48,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 30,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 3,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 14,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 37,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 32,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 19,
+          "count": 4
+        },
+        {
+          "id": 10,
+          "kitId": 55,
+          "count": 3
+        },
+        {
+          "id": 11,
+          "kitId": 40,
+          "count": 5
+        },
+        {
+          "id": 12,
+          "kitId": 42,
+          "count": 3
+        },
+        {
+          "id": 13,
+          "kitId": 49,
+          "count": 1
+        },
+        {
+          "id": 14,
+          "kitId": 31,
+          "count": 1
+        },
+        {
+          "id": 15,
+          "kitId": 33,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "isActive": false,
+      "name": "CONCILITY",
+      "description": "Et adipisicing ad consectetur dolor sit excepteur cillum officia incididunt reprehenderit mollit. Aliquip nisi pariatur Lorem et in voluptate. Elit non anim esse enim quis enim excepteur veniam id quis reprehenderit ullamco quis. Est id ipsum mollit aute voluptate. Ipsum voluptate nisi amet velit ipsum ipsum pariatur.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 58,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 60,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 15,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 42,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 48,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 20,
+          "count": 1
+        },
+        {
+          "id": 8,
+          "kitId": 50,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 50,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 45,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "isActive": false,
+      "name": "BICOL",
+      "description": "Cupidatat non nisi exercitation velit tempor ullamco dolor incididunt Lorem. Laboris dolore amet culpa aute. Fugiat dolor dolore duis occaecat elit anim.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 55,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 32,
+          "count": 4
+        },
+        {
+          "id": 2,
+          "kitId": 54,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 24,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 23,
+          "count": 4
+        },
+        {
+          "id": 5,
+          "kitId": 51,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 28,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 56,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 1,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 3,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 47,
+          "count": 1
+        },
+        {
+          "id": 11,
+          "kitId": 14,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 58,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 1,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "isActive": false,
+      "name": "ORBIN",
+      "description": "Consequat nulla aute ipsum sit non non aliquip. Est veniam non nostrud laboris ullamco laboris occaecat qui ullamco amet fugiat deserunt. In sunt officia aliqua veniam consectetur proident incididunt laboris deserunt eiusmod excepteur.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 34,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 39,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 18,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "isActive": true,
+      "name": "AMTAS",
+      "description": "Elit magna consectetur deserunt qui eiusmod ea. Id ea ea cillum esse Lorem officia. Laboris nostrud nulla quis cupidatat quis Lorem nisi mollit aliquip cillum veniam consectetur nisi. Dolore ut dolor exercitation aliquip commodo id do esse laborum aliquip fugiat fugiat. Non eu esse adipisicing consectetur sit tempor culpa aliqua magna incididunt.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 1,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 33,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 11,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 42,
+          "count": 4
+        },
+        {
+          "id": 5,
+          "kitId": 43,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "isActive": false,
+      "name": "OBLIQ",
+      "description": "Aliquip enim magna proident nostrud in id nisi officia proident ea labore Lorem. Consequat ullamco aute officia proident dolor magna eiusmod. Enim ex Lorem magna laborum do nostrud laborum ipsum quis anim commodo sit. Reprehenderit nostrud duis eu fugiat nostrud ad sint cillum in.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 10,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 32,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 19,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 25,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 24,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 47,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 22,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "isActive": false,
+      "name": "KOFFEE",
+      "description": "Est irure dolor et laborum. Reprehenderit esse deserunt qui id occaecat incididunt laboris consequat fugiat aliquip velit proident elit. Id enim aliqua exercitation nisi. Quis enim mollit laborum aute ut amet duis elit do ut laborum. Voluptate minim ex elit deserunt. Est dolor ipsum ut nisi quis nostrud mollit aliquip nostrud ad proident. Tempor dolor officia elit enim sit quis sunt quis ullamco labore.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 48,
+          "count": 5
+        },
+        {
+          "id": 1,
+          "kitId": 53,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 22,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 23,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 16,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 59,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 47,
+          "count": 1
+        },
+        {
+          "id": 7,
+          "kitId": 4,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 56,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 26,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 26,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 55,
+          "count": 4
+        },
+        {
+          "id": 12,
+          "kitId": 54,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 22,
+          "count": 2
+        },
+        {
+          "id": 14,
+          "kitId": 54,
+          "count": 3
+        },
+        {
+          "id": 15,
+          "kitId": 4,
+          "count": 2
+        },
+        {
+          "id": 16,
+          "kitId": 30,
+          "count": 4
+        },
+        {
+          "id": 17,
+          "kitId": 2,
+          "count": 3
+        },
+        {
+          "id": 18,
+          "kitId": 38,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "isActive": true,
+      "name": "UNDERTAP",
+      "description": "Lorem veniam aute laboris deserunt fugiat aute ipsum ex exercitation consectetur esse dolore consectetur tempor. Eiusmod elit aliqua nisi ea nostrud fugiat eiusmod. Laboris ullamco sunt ad aute nisi occaecat eiusmod cillum.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 55,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 36,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 16,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 55,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 25,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 26,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "kitId": 49,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 20,
+          "count": 3
+        },
+        {
+          "id": 9,
+          "kitId": 57,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 57,
+          "count": 5
+        },
+        {
+          "id": 11,
+          "kitId": 47,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 2,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 59,
+          "count": 4
+        },
+        {
+          "id": 14,
+          "kitId": 30,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 55,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "isActive": true,
+      "name": "SOPRANO",
+      "description": "Nulla sint dolore minim reprehenderit incididunt nisi eiusmod culpa ullamco consectetur cupidatat esse irure Lorem. Aliqua dolor non veniam ipsum enim. Officia ea nulla veniam cillum mollit laboris. Commodo laboris ullamco adipisicing voluptate consequat occaecat aliquip. Eiusmod ut occaecat et sint id aute laborum. Quis minim elit consequat pariatur ex do laborum ut elit duis sint non Lorem commodo. Ex quis commodo pariatur nostrud pariatur et qui eiusmod non nostrud minim.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 35,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 5,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 33,
+          "count": 5
+        },
+        {
+          "id": 4,
+          "kitId": 9,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 57,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 23,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 29,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 46,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 45,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 44,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 53,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 9,
+          "count": 3
+        },
+        {
+          "id": 13,
+          "kitId": 31,
+          "count": 1
+        },
+        {
+          "id": 14,
+          "kitId": 10,
+          "count": 1
+        },
+        {
+          "id": 15,
+          "kitId": 1,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "isActive": true,
+      "name": "KNEEDLES",
+      "description": "Ut officia ullamco duis dolore nostrud duis est culpa ullamco non proident. Mollit quis consectetur fugiat proident anim veniam veniam reprehenderit laborum consequat pariatur qui voluptate. Consequat esse dolor ipsum in duis cillum incididunt ipsum anim mollit occaecat ad.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 51,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 18,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 39,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 1,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 60,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 53,
+          "count": 2
+        },
+        {
+          "id": 7,
+          "kitId": 47,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 21,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 11,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 25,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "isActive": false,
+      "name": "AMTAP",
+      "description": "Ex laboris amet cillum sit esse consectetur magna. Magna aliquip eu labore culpa reprehenderit aliquip. Voluptate sint occaecat fugiat excepteur laborum fugiat excepteur adipisicing velit enim et proident.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 44,
+          "count": 2
+        },
+        {
+          "id": 1,
+          "kitId": 31,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 10,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 18,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 36,
+          "count": 2
+        },
+        {
+          "id": 5,
+          "kitId": 21,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 18,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 2,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 7,
+          "count": 2
+        },
+        {
+          "id": 9,
+          "kitId": 44,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 35,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "isActive": true,
+      "name": "QUIZMO",
+      "description": "Non cillum consequat reprehenderit deserunt incididunt anim nulla cupidatat ex qui fugiat ad esse exercitation. Eiusmod nulla cillum do fugiat laboris proident. Cupidatat fugiat nostrud ex non id. Aute minim consequat culpa ea adipisicing. Et cillum est qui incididunt dolore aliquip anim commodo labore minim. Lorem amet laborum laborum cillum voluptate proident veniam anim tempor velit esse. Mollit aute Lorem ea nisi nostrud nisi aute.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 27,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 28,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "isActive": true,
+      "name": "EZENTIA",
+      "description": "Officia officia sunt exercitation ipsum incididunt et do voluptate officia proident sit qui nisi nulla. Aliqua voluptate enim excepteur veniam cillum in do aliquip. Reprehenderit amet tempor occaecat esse ullamco ullamco ex reprehenderit.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 15,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 6,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "isActive": true,
+      "name": "NETAGY",
+      "description": "Anim quis amet exercitation do commodo nulla minim nostrud mollit duis aute excepteur irure exercitation. Anim esse incididunt velit ipsum minim. Adipisicing quis sit sint fugiat non elit consequat. Laborum ipsum culpa ullamco amet.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 10,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 39,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 20,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 46,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 12,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 34,
+          "count": 4
+        },
+        {
+          "id": 6,
+          "kitId": 7,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 50,
+          "count": 5
+        },
+        {
+          "id": 8,
+          "kitId": 2,
+          "count": 3
+        },
+        {
+          "id": 9,
+          "kitId": 38,
+          "count": 2
+        },
+        {
+          "id": 10,
+          "kitId": 37,
+          "count": 4
+        },
+        {
+          "id": 11,
+          "kitId": 20,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 10,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 10,
+          "count": 2
+        },
+        {
+          "id": 14,
+          "kitId": 5,
+          "count": 3
+        },
+        {
+          "id": 15,
+          "kitId": 58,
+          "count": 2
+        },
+        {
+          "id": 16,
+          "kitId": 21,
+          "count": 4
+        },
+        {
+          "id": 17,
+          "kitId": 18,
+          "count": 4
+        },
+        {
+          "id": 18,
+          "kitId": 58,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "isActive": false,
+      "name": "COMVENE",
+      "description": "Amet aliquip reprehenderit reprehenderit consectetur mollit aute. Cupidatat dolore ex tempor voluptate sint ipsum laborum tempor laborum incididunt ipsum. Reprehenderit aliquip aliqua ad mollit ea ipsum magna ex.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 22,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 18,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 40,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 33,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 44,
+          "count": 3
+        },
+        {
+          "id": 5,
+          "kitId": 11,
+          "count": 2
+        },
+        {
+          "id": 6,
+          "kitId": 28,
+          "count": 4
+        },
+        {
+          "id": 7,
+          "kitId": 59,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 51,
+          "count": 1
+        },
+        {
+          "id": 9,
+          "kitId": 24,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 7,
+          "count": 1
+        },
+        {
+          "id": 11,
+          "kitId": 59,
+          "count": 1
+        },
+        {
+          "id": 12,
+          "kitId": 35,
+          "count": 5
+        },
+        {
+          "id": 13,
+          "kitId": 30,
+          "count": 1
+        },
+        {
+          "id": 14,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 15,
+          "kitId": 35,
+          "count": 3
+        },
+        {
+          "id": 16,
+          "kitId": 31,
+          "count": 3
+        },
+        {
+          "id": 17,
+          "kitId": 16,
+          "count": 4
+        },
+        {
+          "id": 18,
+          "kitId": 59,
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "isActive": false,
+      "name": "PATHWAYS",
+      "description": "Irure consequat dolore commodo aliqua minim dolore occaecat culpa Lorem. Sint culpa consectetur in aliqua ex quis sunt veniam eu laborum enim magna culpa labore. Consequat aliqua laborum laboris dolor commodo culpa minim ipsum ut reprehenderit officia magna. Adipisicing dolor minim aliqua incididunt mollit proident ut irure.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 23,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 53,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 41,
+          "count": 5
+        },
+        {
+          "id": 3,
+          "kitId": 58,
+          "count": 1
+        },
+        {
+          "id": 4,
+          "kitId": 1,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 26,
+          "count": 5
+        },
+        {
+          "id": 6,
+          "kitId": 20,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 25,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 25,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 1,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "isActive": false,
+      "name": "SUREMAX",
+      "description": "Cupidatat laboris magna sunt consectetur eu adipisicing. Eiusmod consectetur cupidatat fugiat ex elit tempor nisi et laborum reprehenderit ea ipsum. Reprehenderit qui pariatur minim culpa aute elit officia non. Esse laboris veniam exercitation et proident laborum culpa nisi quis est aliquip. Non deserunt cillum eiusmod pariatur do culpa eu veniam.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 57,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 53,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 12,
+          "count": 4
+        },
+        {
+          "id": 3,
+          "kitId": 1,
+          "count": 2
+        },
+        {
+          "id": 4,
+          "kitId": 25,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 4,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 6,
+          "count": 5
+        },
+        {
+          "id": 7,
+          "kitId": 15,
+          "count": 4
+        },
+        {
+          "id": 8,
+          "kitId": 25,
+          "count": 4
+        },
+        {
+          "id": 9,
+          "kitId": 15,
+          "count": 3
+        },
+        {
+          "id": 10,
+          "kitId": 6,
+          "count": 2
+        },
+        {
+          "id": 11,
+          "kitId": 34,
+          "count": 3
+        },
+        {
+          "id": 12,
+          "kitId": 53,
+          "count": 2
+        },
+        {
+          "id": 13,
+          "kitId": 43,
+          "count": 4
+        },
+        {
+          "id": 14,
+          "kitId": 42,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 9,
+          "count": 1
+        },
+        {
+          "id": 16,
+          "kitId": 37,
+          "count": 1
+        },
+        {
+          "id": 17,
+          "kitId": 22,
+          "count": 1
+        },
+        {
+          "id": 18,
+          "kitId": 36,
+          "count": 3
+        },
+        {
+          "id": 19,
+          "kitId": 44,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "isActive": true,
+      "name": "ZOXY",
+      "description": "Eiusmod commodo officia voluptate aliquip veniam ad qui incididunt fugiat in occaecat dolore sint. Eu culpa ipsum voluptate dolor aute laboris do aliqua dolor. Aliquip sunt magna esse nostrud laboris quis est cupidatat consectetur.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 42,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 16,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "isActive": true,
+      "name": "TECHADE",
+      "description": "Est culpa ex proident anim dolore exercitation voluptate. Ex dolor nulla in pariatur. Do consectetur nostrud elit proident ipsum ullamco voluptate est mollit non magna consectetur commodo nostrud. Aliqua enim occaecat laboris do est sit. Reprehenderit excepteur voluptate fugiat ex ad. Id dolor aliquip ullamco voluptate amet aliqua excepteur est est esse est qui est nulla. Consequat anim et ullamco proident.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 19,
+          "count": 1
+        },
+        {
+          "id": 1,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 2,
+          "kitId": 8,
+          "count": 3
+        },
+        {
+          "id": 3,
+          "kitId": 19,
+          "count": 4
+        },
+        {
+          "id": 4,
+          "kitId": 45,
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "isActive": true,
+      "name": "DANJA",
+      "description": "Labore anim laborum cupidatat enim occaecat id minim qui veniam eiusmod mollit eiusmod. Aliqua voluptate minim dolore labore id et cillum voluptate ad. Sint non elit sint non aliqua sit ad excepteur ullamco.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 40,
+          "count": 4
+        },
+        {
+          "id": 1,
+          "kitId": 28,
+          "count": 3
+        },
+        {
+          "id": 2,
+          "kitId": 14,
+          "count": 2
+        },
+        {
+          "id": 3,
+          "kitId": 17,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 50,
+          "count": 1
+        },
+        {
+          "id": 5,
+          "kitId": 36,
+          "count": 3
+        },
+        {
+          "id": 6,
+          "kitId": 19,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 36,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 47,
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "isActive": false,
+      "name": "VETRON",
+      "description": "Velit tempor mollit sunt voluptate ipsum ut voluptate velit elit enim aliquip anim Lorem. Laboris culpa mollit est aliquip aute eu. Id id ea sit aliqua commodo reprehenderit laboris duis est ea ut. Duis laborum nisi proident cupidatat in esse aute ex ea quis cillum nostrud culpa. Aliqua esse duis tempor adipisicing sit dolor sunt voluptate ullamco deserunt labore. Velit qui aliqua mollit deserunt qui consectetur. Cupidatat occaecat tempor qui anim irure cupidatat pariatur qui aliqua ullamco duis.\r\n",
+      "kits": [
+        {
+          "id": 0,
+          "kitId": 16,
+          "count": 3
+        },
+        {
+          "id": 1,
+          "kitId": 59,
+          "count": 5
+        },
+        {
+          "id": 2,
+          "kitId": 12,
+          "count": 1
+        },
+        {
+          "id": 3,
+          "kitId": 56,
+          "count": 3
+        },
+        {
+          "id": 4,
+          "kitId": 23,
+          "count": 5
+        },
+        {
+          "id": 5,
+          "kitId": 32,
+          "count": 1
+        },
+        {
+          "id": 6,
+          "kitId": 18,
+          "count": 3
+        },
+        {
+          "id": 7,
+          "kitId": 6,
+          "count": 3
+        },
+        {
+          "id": 8,
+          "kitId": 32,
+          "count": 5
+        },
+        {
+          "id": 9,
+          "kitId": 31,
+          "count": 1
+        },
+        {
+          "id": 10,
+          "kitId": 58,
+          "count": 5
+        },
+        {
+          "id": 11,
+          "kitId": 27,
+          "count": 2
+        },
+        {
+          "id": 12,
+          "kitId": 57,
+          "count": 1
+        },
+        {
+          "id": 13,
+          "kitId": 53,
+          "count": 3
+        },
+        {
+          "id": 14,
+          "kitId": 36,
+          "count": 4
+        },
+        {
+          "id": 15,
+          "kitId": 60,
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

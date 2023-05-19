@@ -1,0 +1,63 @@
+<div
+  class="watermark"
+  [ngStyle]="{ backgroundImage: 'url(' + imagSource + ')' }"
+>
+  <div fxLayoutAlign="center center">
+    <h2 style="color: black; text-transform: uppercase">
+      Welcome to Real Digital International Portal
+    </h2>
+  </div>
+
+  <div *ngIf="userService.castUser$ | async as permits">
+    <div *ngIf="!permits.isActive">
+      <br />
+      <br />
+      <br />
+      <br />
+      <div fxLayoutAlign="center center">
+        <h2 style="color: white; background-color: black; padding: 40px">
+          Please login to access your account
+        </h2>
+      </div>
+    </div>
+
+    <div
+      *ngIf="permits.isActive"
+      fxLayout="row"
+      fxLayoutAlign="space-around  center"
+      style="padding-top: 80px"
+    >
+      <!--
+        </mat-card-header>
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>Search jobs</mat-label>
+            <input matInput placeholder="Ex. NHS" />
+          </mat-form-field>
+        </form>
+      </mat-card> -->
+
+      <mat-card class="pay">
+        <mat-card-header>
+          <!-- <mat-card-title>
+            <h4>fff</h4>
+          </mat-card-title> -->
+        </mat-card-header>
+        <p style="padding: 2px 0 9px 0"><b>Kit short</b></p>
+        <!-- <app-paytable></app-paytable> -->
+        <app-boardcomp></app-boardcomp>
+      </mat-card>
+
+      <mat-card class="pay">
+        <mat-card-header>
+          <!-- <mat-card-title>
+            <h4>fff</h4>
+          </mat-card-title> -->
+        </mat-card-header>
+        <p style="padding: 2px 0 9px 0"><b>Components short</b></p>
+        <!-- <app-paytable></app-paytable> -->
+        <app-boardkit></app-boardkit>
+      </mat-card>
+    </div>
+  </div>
+</div>

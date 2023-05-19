@@ -1,0 +1,38 @@
+FROM node:lts-alpine as builder
+
+COPY . /app
+WORKDIR /app
+RUN npm install
+RUN npm run build
+
+FROM node:lts-alpine
+EXPOSE 80
+COPY --from=builder /app/dist/psp-port /usr/share/nginx/html
+
+# CMD ["npm", "run", "start:prod"]
+
+# docker build -t psp-port .
+# docker run --rm -d -p 4200:80 psp-port
+
+
+# docker run --rm -ti -p 4200:80 psp-port
+
+
+
+
+
+# COPY /dist/psp-port /usr/share/nginx/html
+
+
+# FROM node:lts-alpine
+# ENV NODE_ENV=production
+# WORKDIR /usr/src/app
+# COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
+# RUN npm install --production --silent && mv node_modules ../
+# COPY . .
+# EXPOSE 3000
+# RUN chown -R node /usr/src/app
+# USER node
+# CMD ["npm", "start"]
+
+

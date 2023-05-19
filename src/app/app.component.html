@@ -1,0 +1,104 @@
+<mat-toolbar class="app-toolbar mat-elevation-z8">
+  <span style="color: blue; font-weight: bold">Real </span> &nbsp;
+  <span style="color: red; font-weight: bold"> Digital </span> &nbsp;
+  <span style="color: blue; font-weight: bold"> International</span>
+  <!-- <span style="color: black"> &nbsp; - {{ username }}</span> -->
+
+  <span fxFlex>
+    <div
+      *ngIf="userService.castUser$ | async as permits"
+      fxLayoutGap="10px"
+      fxLayout="row"
+      fxLayoutAlign="end "
+    >
+      <span *ngIf="permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/user">
+          Dashboard
+        </button>
+      </span>
+
+      <span *ngIf="permits.isManager && permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/kitmain/comps">
+          Components
+        </button>
+      </span>
+
+      <span *ngIf="permits.isManager && permits.isActive">
+        <button
+          mat-raised-button
+          color="primary"
+          routerLink="/kitmain/template"
+        >
+          Templates
+        </button>
+      </span>
+
+      <span *ngIf="permits.isUser && permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/kitmain/kit">
+          Kit Main
+        </button>
+      </span>
+
+      <span *ngIf="permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/kitmain/kit">
+          Kit Admin
+        </button>
+      </span>
+
+      <span *ngIf="permits.isManager && permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/admin">
+          Admin
+        </button>
+      </span>
+
+      <!-- <button mat-raised-button color="primary" [matMenuTriggerFor]="menu">
+          Admin
+        </button> -->
+      <!-- <mat-menu #menu="matMenu">
+          <button mat-menu-item routerLink="/admin">Admin Console</button>
+          <button mat-menu-item routerLink="/admin/usermanage">
+            User Management
+          </button>
+          <button mat-menu-item routerLink="/kitmain/template">
+            Template Management
+          </button>
+          <button mat-menu-item routerLink="/kitmain/comps">
+            Component Management
+          </button>
+        </mat-menu> -->
+
+      <!-- <span *ngIf="permits.isManager && permits.isActive">
+        <button mat-raised-button color="primary" [matMenuTriggerFor]="menupay">
+          Kitman
+        </button>
+        <mat-menu #menupay="matMenu">
+          <button mat-menu-item routerLink="/payment/paylog">Make kits</button>
+          <button mat-menu-item routerLink="/kitmain/comps">
+            Component console
+          </button>
+        </mat-menu>
+      </span> -->
+
+      <span *ngIf="!permits.isActive">
+        <button mat-raised-button color="primary" routerLink="/user/login">
+          Login
+        </button>
+      </span>
+
+      <span *ngIf="permits.isActive">
+        <button mat-raised-button color="primary" (click)="onLogout()">
+          Logout
+        </button>
+      </span>
+    </div>
+  </span>
+</mat-toolbar>
+
+<div style="padding: 10px">
+  <router-outlet style="background-color: blue"></router-outlet>
+</div>
+
+<!--
+<footer>
+  Carib Condominiums
+</footer> -->

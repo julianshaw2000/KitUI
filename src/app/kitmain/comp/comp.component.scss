@@ -1,0 +1,32 @@
+.centerhead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  
+  height: 700px;
+  overflow: auto;
+}
+
+.mat-cell {
+  padding: 0 10px 0 10px;
+}
+
+tr:hover {
+  background-color: lightyellow;
+}
+
+
+.example-container {
+  height: 400px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}

@@ -1,0 +1,70 @@
+<mat-card>
+  <div cdkDropListGroup>
+    <div class="example-container">
+      <h2>Available kits</h2>
+
+      <button mat-raised-button color="primary" (click)="filterItems()">
+        Filter
+      </button>
+      &nbsp;
+
+      <mat-form-field class="example-form-field">
+        <mat-label>Filter text...</mat-label>
+        <input matInput type="text" [(ngModel)]="filterText" />
+        <button
+          *ngIf="filterText"
+          matSuffix
+          mat-icon-button
+          aria-label="Clear"
+          (click)="filterText = ''"
+        >
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <!-- <input [(ngModel)]="filterText"
+     type="text" placeholder="Filter text..." />
+      -->
+
+      <div
+        cdkDropList
+        [cdkDropListData]="items"
+        class="example-list"
+        cdkDropListSortingDisabled
+        (cdkDropListDropped)="drop($event)"
+      >
+        <div class="example-box" *ngFor="let item of items" cdkDrag>
+          {{ item.name }}
+        </div>
+      </div>
+    </div>
+
+    <div class="example-container">
+      <h2>Selected Kits</h2>
+      <button
+        style="margin: 10px 0 20px 0"
+        mat-raised-button
+        color="primary"
+        (click)="emptyBasket()"
+      >
+        Empty
+      </button>
+
+      <div
+        cdkDropList
+        [cdkDropListData]="basket"
+        class="example-list"
+        (cdkDropListDropped)="drop($event)"
+      >
+        <div class="example-box" *ngFor="let item of basket" cdkDrag>
+          {{ item.name }} &nbsp;
+          <!-- {{ item.count }}  -->
+          <span>
+            Qty:
+            <input [(ngModel)]="item.count" type="number" />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</mat-card>

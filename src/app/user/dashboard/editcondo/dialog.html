@@ -1,0 +1,19 @@
+<h1 mat-dialog-title>Receipt Print</h1>
+<div >
+<!-- <div mat-dialog-content> -->
+  <p>Send receipt to your:</p>
+
+  <mat-radio-group >
+  <mat-radio-button value="1">Email</mat-radio-button> &nbsp;
+  <mat-radio-button value="2">Printer </mat-radio-button>
+</mat-radio-group>
+  <!-- <mat-form-field appearance="fill">
+    <mat-label>File Name</mat-label>
+    <input matInput [(ngModel)]="data.animal">
+  </mat-form-field> -->
+</div>
+<div mat-dialog-actions>
+  <!-- <button mat-button (click)="onNoClick()">No Thanks</button> -->
+  <button mat-raised-button [mat-dialog-close]="data.animal" cdkFocusInitial color ="primary">Ok</button>
+  <button mat-raised-button [mat-dialog-close]="data.animal"  color ="accent">Cancel</button>
+</div>
