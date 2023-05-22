@@ -15,18 +15,24 @@
 
     <ng-container matColumnDef="code">
       <th mat-header-cell *matHeaderCellDef>Code</th>
-      <td mat-cell *matCellDef="let element">{{ element.compCode }}</td>
+      <td mat-cell *matCellDef="let element">{{ element.code }}</td>
     </ng-container>
 
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef>Name</th>
-      <td mat-cell *matCellDef="let element">{{ element.compName.substring(0,15) }}</td>
+      <td mat-cell *matCellDef="let element">
+        {{ element.name.substring(0, 15) }}
+      </td>
     </ng-container>
-
 
     <ng-container matColumnDef="count">
       <th mat-header-cell *matHeaderCellDef>Count</th>
-      <td mat-cell *matCellDef="let element">{{ element.CurrentQty }}</td>
+      <td mat-cell *matCellDef="let element">{{ element.currentQty }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="lowlimit">
+      <th mat-header-cell *matHeaderCellDef>Low limit</th>
+      <td mat-cell *matCellDef="let element">{{ element.lowLimit }}</td>
     </ng-container>
 
     <ng-container matColumnDef="actions">
@@ -42,6 +48,7 @@
           >
           </mat-icon>
         </a>
+        &nbsp;
         <mat-icon
           (click)="openDeleteModal(element.id)"
           aria-hidden="false"
@@ -53,7 +60,7 @@
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
- 
+
     <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
   </table>
 </div>

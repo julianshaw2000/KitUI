@@ -10,14 +10,16 @@ import { Location } from '@angular/common';
   styleUrls: ['./kitupdate.component.scss']
 })
 export class KitupdateComponent implements OnInit {
- 
+
   kitForm: Kit = {
     id: 0,
-    kitCode: '',
+    code: '',
     currentQty: 0,
     dateAdded: undefined,
     name: '',
-    compcount: []
+    compcount: [],
+    templateCode: '',
+    customer: ''
   };
 
 

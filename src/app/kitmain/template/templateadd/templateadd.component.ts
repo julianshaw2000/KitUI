@@ -5,6 +5,7 @@ import { TemplatesService } from '../../_service/templates.service';
 import { Location } from '@angular/common';
 import { TemplatedragdropComponent } from '../templatedragdrop/templatedragdrop.component';
 import { CompsService } from '../../_service/comps.service';
+import { Comp } from '../../_models/comp';
 
 @Component({
   selector: 'app-templateadd',
@@ -15,6 +16,7 @@ export class TemplateaddComponent implements OnInit, AfterViewInit {
   @ViewChild(TemplatedragdropComponent) childComponent: TemplatedragdropComponent;
 
   parentData = [];
+  isFormValid: boolean = false;
 
 
   templateForm: Template = {
@@ -22,7 +24,8 @@ export class TemplateaddComponent implements OnInit, AfterViewInit {
     name: '',
     compcount: [],
     dateAdded: '',
-    kitCode: ''
+    code: '',
+    lowLimit: null,
   };
 
   constructor(
@@ -31,6 +34,15 @@ export class TemplateaddComponent implements OnInit, AfterViewInit {
     private router: Router,
     private location: Location,
   ) { }
+
+  checkFormValidity() {
+    console.log('changed')
+    this.isFormValid =
+      this.templateForm.code.trim().length > 0
+      && this.templateForm.name.trim().length > 0
+      && this.templateForm.lowLimit > 0
+  }
+
 
   ngAfterViewInit(): void {
 
@@ -57,6 +69,11 @@ export class TemplateaddComponent implements OnInit, AfterViewInit {
     // });
   }
 
+  handleBasketChange(basket: Comp[]) {
+    // Handle the updated basket data received from the child component
+    console.log('Updated basket:', basket);
+  }
+
 
   onChildEvent(event: any) {
     console.log(event);
@@ -64,11 +81,22 @@ export class TemplateaddComponent implements OnInit, AfterViewInit {
   create() {
     let basket = this.parentData = this.childComponent.basket;
 
+    console.log("template >>", this.templateForm)
     console.log("basket >>", basket)
 
-    //  this.templateService.create(this.templateForm, basket).subscribe(() => {
-    //   this.location.back();
-    // });
+    //  this.templateService.create(this.templateForm, basket)
+    // .subscribe(
+    //   response => {
+    //     // Handle the successful creation of the template
+    //     console.log('Template created:', response);
+    //   },
+    //   error => {
+    //     // Handle any errors that occurred during the creation process
+    //     console.error('Error creating template:', error);
+    //   }
+    // );
+
+    this.location.back();
 
   }
 

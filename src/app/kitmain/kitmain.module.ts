@@ -19,8 +19,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatRadioModule} from '@angular/material/radio';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatRadioModule } from '@angular/material/radio';
 
 
 
@@ -74,7 +74,7 @@ import { StockcompComponent } from './stockcomp/stockcomp.component';
     KitComponent,
     CompComponent,
     TemplateComponent,
-    
+
     JobComponent,
     JobaddComponent,
     JobupdateComponent,
@@ -104,6 +104,7 @@ import { StockcompComponent } from './stockcomp/stockcomp.component';
   ],
   imports: [
     CommonModule,
+    FlexLayoutModule,
     KitmainRoutingModule,
     MatTableModule,
     MatFormFieldModule,

@@ -12,7 +12,7 @@ import { CompdeleteComponent } from './compdelete/compdelete.component';
 export class CompComponent implements OnInit {
 
   allComps: Comp[] = []
-  displayedColumns: string[] = ['id', 'name', 'code', 'count', 'actions'];
+  displayedColumns: string[] = ['id', 'name', 'code', 'lowlimit', 'count', 'actions'];
 
   constructor(
     private compsService: CompsService,
@@ -42,7 +42,7 @@ export class CompComponent implements OnInit {
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
         this.allComps = this.allComps.filter(
-          (_) => _.compId !== id
+          (_) => _.id !== id
         );
       }
     });

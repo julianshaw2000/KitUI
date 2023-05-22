@@ -11,9 +11,9 @@ interface Item {
 
 
 @Component({
-  selector: 'app-compdragdrop',
-  templateUrl: './compdragdrop.component.html',
-  styleUrls: ['./compdragdrop.component.css']
+  selector: 'app-kitdragdrop',
+  templateUrl: './kitdragdrop.component.html',
+  styleUrls: ['./kitdragdrop.component.css']
 })
 export class KitdragdropComponent implements OnInit {
 

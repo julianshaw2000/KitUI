@@ -1,7 +1,20 @@
-.form-element{
-  width: 500px;
+.form-element {
+  flex: 1;
+  margin-right: 10px;
 }
-.add-comp-container{
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-comp-container {
   padding: 20px;
 }
 

@@ -21,6 +21,8 @@ import { TemplatesService } from '../../_service/templates.service';
 })
 export class TemplatedragdropComponent implements OnInit {
   @Input() childData: Comp[];
+  @Output() basketChanged = new EventEmitter<Comp[]>();
+
   // @Output() childEvent = new EventEmitter();
 
 
@@ -51,9 +53,22 @@ export class TemplatedragdropComponent implements OnInit {
         event.currentIndex,
       );
     }
+    // this.basketChanged.emit(this.basket); // Emit the updated basket data
+    this.updateBasketAndQty(); // Update the basket and currentQty values
+
   }
 
 
+  updateBasketAndQty() {
+    this.basket.forEach(item => {
+      const correspondingItem = this.itemsInit.find(i => i.id === item.id);
+      if (correspondingItem) {
+        correspondingItem.currentQty = item.currentQty;
+      }
+    });
+
+    this.basketChanged.emit(this.basket); // Emit the updated basket data
+  }
 
 
 
@@ -70,7 +85,7 @@ export class TemplatedragdropComponent implements OnInit {
   }
 
 
-  // compId: number;
+  // id: number;
   // compName: string;
   // compCode: string;
   // currentQty: number;
@@ -93,18 +108,30 @@ export class TemplatedragdropComponent implements OnInit {
     });
   }
 
+
   filterItems() {
     this.items = this.itemsInit;
-    this.items = this.items.filter(item => item.compName.toUpperCase().includes(this.filterText.toUpperCase()));
-  }
-
-  emptyBasket() {
-    this.basket = [];
+    this.items = this.items.filter(item => item.name.toUpperCase().includes(this.filterText.toUpperCase()));
   }
 
   runkits() {
     console.log('run kits');
   }
+
+
+
+  emptyBasket() {
+    this.items = [...this.basket, ...this.items]; // Move all items from the basket to the top of the items array
+    this.basket = []; // Clear the basket
+  }
+
+
+  deleteItem(index: number) {
+    const deletedItem = this.basket.splice(index, 1)[0]; // Remove the item from the basket and store it
+    this.items.unshift(deletedItem); // Add the deleted item to the beginning of the items array
+  }
+
+
 
 }
 

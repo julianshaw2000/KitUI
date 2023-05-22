@@ -1,17 +1,16 @@
-<span fxFlex>
-  <div
-    *ngIf="userService.castUser$ | async as permits"
-    fxLayoutGap="10px"
+<!-- <span> -->
+<div *ngIf="userService.castUser$ | async as permits">
+  <!-- fxLayoutGap="10px"
     fxLayout="row"
     fxLayoutAlign="end "
-  >
-    <span *ngIf="permits.isManager && permits.isActive">
-      <!-- <app-boardmanager></app-boardmanager> -->
-      <app-comp></app-comp>
-    </span>
+  > -->
+  <span *ngIf="permits.isManager && permits.isActive">
+    <!-- <app-boardmanager></app-boardmanager> -->
+    <app-comp></app-comp>
+  </span>
 
-    <span *ngIf="permits.isUser && permits.isActive">
-      <app-boarduser></app-boarduser>
-    </span>
-  </div>
-</span>
+  <span *ngIf="permits.isUser && permits.isActive">
+    <app-boarduser></app-boarduser>
+  </span>
+</div>
+<!-- </span> -->

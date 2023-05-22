@@ -12,19 +12,20 @@ import { CompsService } from '../../_service/comps.service';
   templateUrl: './templateupdate.component.html',
   styleUrls: ['./templateupdate.component.css']
 })
- 
-  export class TemplateupdateComponent implements OnInit {
-    @ViewChild(TemplatedragdropComponent) childComponent: TemplatedragdropComponent;
-  
-    parentData = [];
-  
+
+export class TemplateupdateComponent implements OnInit {
+  @ViewChild(TemplatedragdropComponent) childComponent: TemplatedragdropComponent;
+
+  parentData = [];
+
 
 
   templateForm: Template = {
     id: 0,
     name: '',
-    kitCode: '',
+    code: '',
     dateAdded: '',
+    lowLimit: 0,
     compcount: []
   };
 
@@ -49,14 +50,14 @@ import { CompsService } from '../../_service/comps.service';
       this.templateForm = data;
     });
   }
-  
+
   create() {
     let basket = this.parentData = this.childComponent.basket;
 
     // this.templateService.create(this.templateForm, basket).subscribe(() => {
     // this.location.back();
-  // });
-}
+    // });
+  }
 
   update() {
     this.templateService.update(this.templateForm).subscribe(() => {

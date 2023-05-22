@@ -16,7 +16,7 @@ import { TemplatedeleteComponent } from './templatedelete/templatedelete.compone
 export class TemplateComponent implements OnInit {
 
   allTemplates: Template[] = []
-  displayedColumns: string[] = ['id', 'kitCode', 'name', 'actions'];
+  displayedColumns: string[] = ['id', 'code', 'name', 'lowLimit', 'actions'];
   filterValue = '';
 
   constructor(
@@ -29,8 +29,8 @@ export class TemplateComponent implements OnInit {
   }
 
   applyFilter(event: Event) {
-   const filterValue = (event.target as HTMLInputElement).value;
-   this.allTemplates.filter( (x) => x.name.includes(this.filterValue.trim().toLowerCase()))
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.allTemplates.filter((x) => x.name.includes(this.filterValue.trim().toLowerCase()))
   }
 
   get() {

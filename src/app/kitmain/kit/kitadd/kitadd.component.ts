@@ -14,11 +14,13 @@ export class KitaddComponent implements OnInit {
 
   kitForm: Kit = {
     id: 0,
-    kitCode: '',
+    code: '',
     currentQty: 0,
     dateAdded: undefined,
     name: '',
-    compcount: []
+    compcount: [],
+    templateCode: '',
+    customer: ''
   };
 
   constructor(

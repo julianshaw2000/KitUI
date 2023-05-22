@@ -5,6 +5,8 @@ import { Template } from '../_models/template';
 import { Comp } from '../_models/comp';
 import { environment } from 'src/environments/environment';
 import { Compcount } from '../_models/compcount';
+import { HelperModule } from './helper.module';
+
 
 @Injectable({
   providedIn: 'root'
@@ -12,47 +14,35 @@ import { Compcount } from '../_models/compcount';
 
 export class TemplatesService {
 
-  
+
 
   url = environment.apiUrl;
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient,
+    private helperModule: HelperModule) { }
 
   get(): Observable<Template[]> {
     return this.httpClient.get<Template[]>(this.url + 'templates');
   }
 
-  
 
-  create(template: Template, basket: Compcount[]) {
-     console.log(basket)
+  copyCompsToCompcounts(comps: Comp[]): Compcount[] {
+    return this.helperModule.copyCompsToCompcounts(comps);
+  }
 
-    // let basketnum = basket.map(item => item.id);
+  create(template: Template, basket: Comp[]) {
 
+    const compCounts = this.copyCompsToCompcounts(basket);
 
-    // const { id, count } = basket;
-    // const nameObj = { id, count };
+    const payload = {
+      template: template,
+      compCounts: compCounts
+    };
 
-    // this.itemsInit = this.itemsInit.map(item => {
-    //   item.count = 1
-    //   return item;
-    // });
+    console.log(payload)
 
-    // payload.components = basket;  // save to comp with id
+    return this.httpClient.post<Template>(this.url + 'templates', payload)
 
-   // template.compcount = 
-
-   // const payload: {tempData: Template, compData: Comp[]} = {tempData: template, compData: basket}
-
-    // console.log(basket)
-
-   // const dout = basket.map(  x =>   ({id: x.id, qty: x.currentQty}) )
-   // console.log("dout ->", dout);
-
-    // const { compCode: _, compName: _, dateAdded: _, ...newPay} = basket
-
-
-   // return this.httpClient.post<any>(this.url + 'templates', payload);
 
   }
 

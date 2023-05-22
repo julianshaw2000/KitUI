@@ -9,7 +9,6 @@
 &nbsp;
 
 <div class="container allstudents-container">
-
   <!-- <mat-form-field>
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
@@ -21,15 +20,20 @@
       <td mat-cell *matCellDef="let element">{{ element.id }}</td>
     </ng-container>
 
-    <ng-container matColumnDef="kitCode">
-      <th mat-header-cell *matHeaderCellDef>Kit Code</th>
-      <td mat-cell *matCellDef="let element">{{ element.kitCode }}</td>
+    <ng-container matColumnDef="code">
+      <th mat-header-cell *matHeaderCellDef>Code</th>
+      <td mat-cell *matCellDef="let element">{{ element.code }}</td>
+    </ng-container>
+
+    <ng-container matColumnDef="lowLimit">
+      <th mat-header-cell *matHeaderCellDef>Limit</th>
+      <td mat-cell *matCellDef="let element">{{ element.lowLimit }}</td>
     </ng-container>
 
     <ng-container matColumnDef="name">
       <th mat-header-cell *matHeaderCellDef>Name</th>
       <td mat-cell *matCellDef="let element">
-        {{ element.name ==null ? null : element.name.substring(0, 60) }}
+        {{ element.name == null ? null : element.name.substring(0, 60) }}
       </td>
     </ng-container>
 

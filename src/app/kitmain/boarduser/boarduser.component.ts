@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
 import { TemplatesService } from '../_service/templates.service';
-
-// import * as _ from "lodash";
 import { Template } from '../_models/template';
 import { KitsService } from '../_service/kits.service';
-
+import { CompsService } from '../_service/comps.service';
+import { Comp } from '../_models/comp';
 
 interface ItemRec {
   id: number;
@@ -19,56 +18,42 @@ interface ItemRec {
   styleUrls: ['./boarduser.component.css']
 })
 export class BoarduserComponent implements OnInit {
-
   execType: string;
-  seasons: string[] = ['Add', 'Remove'];
-
+  execValues: string[] = ['Add', 'Remove'];
   result: any[] = [];
-
-  ItemResult: ItemRec[] = [ ] 
-  ItemBasket: ItemRec[] = []
- // ItemInit: ItemRec[] = []
-
-
-  // result=''
-
-
-
-
-  itemsInit: any[] = []
-
-  items: any[] = []
-  basket: any[] = []
+  ItemResult: ItemRec[] = [];
+  ItemBasket: ItemRec[] = [];
+  jobName: string = '';
+  itemsInit: any[] = [];
+  items: any[] = [];
+  basket: any[] = [];
+  kitCompData: { kitId: any; compId: any; kitCount: any; componentName: any; totalComponentCount: number; }[];
 
   constructor(
     private templatesService: TemplatesService,
+    private compsService: CompsService,
     private kitsService: KitsService
-    ) { }
+  ) { }
 
-  runPreview() {
-
-    this.kitsService.makeKits(this.basket)
-
-    this.result=[]
+  ngOnInit(): void {
+    this.initComps();
+    this.filterItems();
   }
 
-  initComps() {
+  runPreview(): void {
+    this.kitsService.makeKits(this.basket);
+    this.result = [];
+  }
 
+  initComps(): void {
     this.templatesService.get().subscribe((data) => {
-     // console.log(data)
-
       this.itemsInit = data;
-
       this.itemsInit.forEach(x => x.count = 1);
-      this.items = this.itemsInit
-
+      this.items = this.itemsInit;
     });
   }
 
-
-
-
-  drop(event: CdkDragDrop<Template[]>) {
+  drop(event: CdkDragDrop<Template[]>): void {
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
     } else {
@@ -76,69 +61,46 @@ export class BoarduserComponent implements OnInit {
         event.previousContainer.data,
         event.container.data,
         event.previousIndex,
-        event.currentIndex,
+        event.currentIndex
       );
     }
   }
 
+  preview(): void {
+    const kits = this.basket;
+    this.compsService.get().subscribe((comps) => {
+      this.kitCompData = kits.map((kit: any) => {
+        const comp = comps.find((c: Comp) => c.id === kit.compId);
+        const totalCount = kit.count;
 
-  //================================================================================================
-
-  // check the basket array parameters before running the function
-
-
-  runIt0() {
-    let data = this.basket // this is the basket array
- 
-
-   
-
-    // this.result = data
-  }
- 
-
-
-
-
-
-
-
-  //================================================================================================
-
-  runIt() {
- 
-     this.result = this.basket;
-     console.log(this.basket)
-
+        return {
+          kitId: kit.id,
+          compId: kit.compId,
+          kitCount: kit.count,
+          componentName: comp.name,
+          totalComponentCount: totalCount
+        };
+      });
+    });
   }
 
-  runIt_test() { 
- 
-
+  runIt(): void {
+    this.result = this.basket;
+    console.log(this.basket);
   }
-
-
-
-
 
   filterText: string = '';
 
-  ngOnInit() {
-    this.initComps();
-    this.filterItems();
-  }
-
-  filterItems() {
+  filterItems(): void {
     this.items = this.itemsInit;
     this.items = this.items.filter(item => item.name.toUpperCase().includes(this.filterText.toUpperCase()));
   }
 
-  emptyBasket() {
+  emptyBasket(): void {
     this.basket = [];
   }
 
-  runkits() {
+  runkits(): void {
     console.log('run kits');
   }
 }
-

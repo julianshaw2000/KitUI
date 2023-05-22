@@ -25,30 +25,26 @@
       <!-- <input [(ngModel)]="filterText"
      type="text" placeholder="Filter text..." />
       -->
-<!--       
-      compId: number;
+      <!--
+      id: number;
   compName: string;
   compCode: string;
   currentQty: number;
   dateAdded: Date; -->
 
-  
-  <div class="overflow">
-      <div
-        cdkDropList
-        [cdkDropListData]="items"
-        class="example-list"
-        cdkDropListSortingDisabled
-        (cdkDropListDropped)="drop($event)"
-      >
-        <div class="example-box" *ngFor="let item of items" cdkDrag>
-          {{ item.compCode }}&nbsp;: &nbsp;{{ item.compName }}
+      <div class="overflow">
+        <div
+          cdkDropList
+          [cdkDropListData]="items"
+          class="example-list"
+          cdkDropListSortingDisabled
+          (cdkDropListDropped)="drop($event)"
+        >
+          <div class="example-box" *ngFor="let item of items" cdkDrag>
+            {{ item.code }}&nbsp;: &nbsp;{{ item.name }}
+          </div>
         </div>
       </div>
-  </div>
-
-
-
     </div>
 
     <div class="example-container">
@@ -63,27 +59,34 @@
       </button>
 
       <div class="overflow">
-
-
-      <div
-        cdkDropList
-        [cdkDropListData]="basket"
-        class="example-list"
-        (cdkDropListDropped)="drop($event)"
-      >
-        <div class="example-box" *ngFor="let item of basket" cdkDrag>
-          {{ item.compCode }}&nbsp;: &nbsp;{{ item.compName }}
-          <!-- {{ item.count }}  -->
-          <span>
-            Qty:
-            <input style="width: 50px;" [(ngModel)]="item.currentQty" type="number" min="1" />
-          </span>
+        <div
+          cdkDropList
+          [cdkDropListData]="basket"
+          class="example-list"
+          (cdkDropListDropped)="drop($event)"
+        >
+          <div
+            class="example-box"
+            *ngFor="let item of basket; let i = index"
+            cdkDrag
+          >
+            {{ item.code }}&nbsp;: &nbsp;{{ item.name }}
+            <!-- {{ item.count }}  -->
+            <span>
+              Qty:
+              <input
+                style="width: 50px"
+                [(ngModel)]="item.currentQty"
+                type="number"
+                min="1"
+              />
+            </span>
+            <button mat-icon-button color="warn" (click)="deleteItem(i)">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </div>
         </div>
       </div>
-
-    </div>
-
-
     </div>
   </div>
 </mat-card>

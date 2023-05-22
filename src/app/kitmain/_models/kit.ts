@@ -3,12 +3,14 @@
 import { Compcount } from "./compcount";
 
 export interface Kit {
-    id: number;
-    kitCode: string;
-    name: string;
-    dateAdded: string;
-    currentQty: number;
-    compcount: Compcount[];
+  id: number;
+  code: string;
+  name: string;
+  templateCode: string;
+  customer: string;
+  dateAdded: Date;
+  currentQty: number;
+  compcount: Compcount[];
 }
 // export interface Kit {
 //   id: number;

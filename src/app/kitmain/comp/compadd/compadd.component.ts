@@ -13,11 +13,13 @@ export class CompaddComponent implements OnInit {
 
 
   compForm: Comp = {
-    compId: 0,
-    compName: '',
-    compCode: '',
+    id: 0,
+    name: '',
+    code: '',
     currentQty: 0,
-    dateAdded: new Date()
+    dateAdded: new Date(),
+    customer: '',
+    lowLimit: 0
   };
 
   constructor(

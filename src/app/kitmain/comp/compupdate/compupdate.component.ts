@@ -12,11 +12,13 @@ import { Location } from '@angular/common';
 export class CompupdateComponent implements OnInit {
 
   compForm: Comp = {
-    compId: 0,
-    compName: '',
-    compCode: '',
+    id: 0,
+    name: '',
+    code: '',
     currentQty: 0,
-    dateAdded: undefined
+    dateAdded: undefined,
+    customer: '',
+    lowLimit: 0
   };
 
   recordId: number = 0;

@@ -41,6 +41,7 @@
           >
           </mat-icon>
         </a>
+        &nbsp;
         <mat-icon
           (click)="openDeleteModal(element.id)"
           aria-hidden="false"
@@ -52,7 +53,7 @@
     </ng-container>
 
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
- 
+
     <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
   </table>
 </div>

@@ -4,42 +4,42 @@
       <mat-card>
         <h3 style="text-align: center">Add New Kit Data</h3>
 
-<!-- 
+        <!--
         kitForm: Comp = {
-          compId: 0,
+          id: 0,
           compName: '',
           compCode: '',
           currentQty: 0,
           dateAdded: undefined -->
 
-          <div>
-            <mat-form-field appearance="outline" class="form-element">
-              <mat-label>Name of component</mat-label>
-              <input matInput [(ngModel)]="kitForm.name" />
-            </mat-form-field>
-          </div>
- 
-          <div>
-            <mat-form-field appearance="outline" class="form-element">
-              <mat-label>Kit Code</mat-label>
-              <input matInput [(ngModel)]="kitForm.kitCode" />
-            </mat-form-field>
-          </div>
-     
-          <div>
-            <mat-form-field appearance="outline" class="form-element">
-              <mat-label>Date Added</mat-label>
-              <input matInput [(ngModel)]="kitForm.dateAdded" />
-            </mat-form-field>
-          </div>
-     
-          <div>
-            <mat-form-field appearance="outline" class="form-element">
-              <mat-label>Quantity</mat-label>
-              <input matInput [(ngModel)]="kitForm.currentQty" />
-            </mat-form-field>
-          </div>
-     
+        <div>
+          <mat-form-field appearance="outline" class="form-element">
+            <mat-label>Name of component</mat-label>
+            <input matInput [(ngModel)]="kitForm.name" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field appearance="outline" class="form-element">
+            <mat-label>Kit Code</mat-label>
+            <input matInput [(ngModel)]="kitForm.code" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field appearance="outline" class="form-element">
+            <mat-label>Date Added</mat-label>
+            <input matInput [(ngModel)]="kitForm.dateAdded" />
+          </mat-form-field>
+        </div>
+
+        <div>
+          <mat-form-field appearance="outline" class="form-element">
+            <mat-label>Quantity</mat-label>
+            <input matInput [(ngModel)]="kitForm.currentQty" />
+          </mat-form-field>
+        </div>
+
         <!-- <div>  useful select!!!!
         <mat-form-field appearance="outline" class="form-element">
           <mat-label>Cost</mat-label>
@@ -49,7 +49,6 @@
           </mat-select>
         </mat-form-field>
       </div> -->
- 
 
         <div>
           <mat-form-field appearance="outline" class="form-element">

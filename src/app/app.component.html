@@ -17,6 +17,16 @@
         </button>
       </span>
 
+      <span *ngIf="permits.isActive">
+        <button
+          mat-raised-button
+          color="primary"
+          routerLink="/kitmain/kitboard"
+        >
+          Kit Board
+        </button>
+      </span>
+
       <span *ngIf="permits.isManager && permits.isActive">
         <button mat-raised-button color="primary" routerLink="/kitmain/comps">
           Components

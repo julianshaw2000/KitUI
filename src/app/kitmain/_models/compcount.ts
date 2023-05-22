@@ -2,7 +2,7 @@ import { Template } from "./template";
 
 export interface Compcount {
     compcountId: number;
-    compId: number;
+    id: number;
     quantity: number;
-    templateId: number; 
+    templateId: number;
 }

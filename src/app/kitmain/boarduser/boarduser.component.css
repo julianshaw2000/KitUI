@@ -20,7 +20,7 @@
 }
 
 
-
+/*
 .example-container {
   width: 420px;
   max-width: 100%;
@@ -30,12 +30,12 @@
 }
 
 .example-container2 {
-  width: 450px;
+  width: 350px;
   max-width: 100%;
   margin: 0 25px 25px 0;
   display: inline-block;
-  vertical-align: top;
-}
+   vertical-align: top;
+} */
 
 .example-list {
   border: solid 1px #ccc;

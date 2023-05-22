@@ -2,11 +2,12 @@
 import { Compcount } from "./compcount";
 
 export interface Template {
-    id: number;
-    kitCode: string;
-    name: string;
-    dateAdded: string;
-    compcount: Compcount[];
+  id: number;
+  name: string;
+  code: string;
+  lowLimit: number;
+  dateAdded: string;
+  compcount: Compcount[];
 }
 
 // import { Comp } from "./comp";
